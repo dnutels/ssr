@@ -1,0 +1,7 @@
+query {
+    common
+    chartPageUnification: page {
+        chart (segmentId: $segment_id)    
+        relatedArticles (segmentId: $segment_id)
+    }
+}

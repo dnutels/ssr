@@ -1,0 +1,16 @@
+{
+    "verbose": true,
+    "execMap": {
+        "js": "node --harmony --inspect"
+    },
+    "watch": [
+        "lib/sandbox/"
+    ],
+    "env": {
+        "NODE_ENV": "development",
+        "PORT": 4000,
+        "COMPONENTS_DIR": "dist/components/"
+    },
+    "delay": "100",
+    "ext": "js json html"
+}
