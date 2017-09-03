@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "type": "component",
+  "name": "header",
+  "description": "Header component",
+  "version": "0.0.1"
+}
