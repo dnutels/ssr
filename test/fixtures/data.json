@@ -1,0 +1,2680 @@
+{
+    "common": {
+        "segmentMenu": [{
+            "_id": "58a2fd916258fd28627de32c",
+            "id": "58a2fd80270f68432d460a6e",
+            "varType": "default",
+            "publishAt": "2017-02-15T13:47:22.316Z",
+            "varName": "default",
+            "historyNames": ["top-products", "top10-chart"],
+            "siteId": "57a30b909cd52c6d20081b0c",
+            "verticalId": "58a2fcd81ce3044b6963adca",
+            "segmentId": "58a2fd7f1ce3044b6963add5",
+            "order": 0,
+            "pageTypeId": "57a30b968ffdc168217f96b2",
+            "displayName": "Top10 Chart",
+            "name": "top10-chart",
+            "ver": "58a45be720efb2468fdc08de",
+            "varId": "58a2fd80270f68432d460a6d",
+            "__v": 0
+        }, {
+            "_id": "58a2fd916258fd28627de32f",
+            "id": "58a2fd811ce3044b6963ade4",
+            "varType": "default",
+            "publishAt": "2017-02-14T13:03:04.104Z",
+            "varName": "default",
+            "historyNames": ["how-it-works", "credit-reporting"],
+            "siteId": "57a30b909cd52c6d20081b0c",
+            "verticalId": "58a2fcd81ce3044b6963adca",
+            "segmentId": "58a2fd7f1ce3044b6963add5",
+            "order": 1,
+            "pageTypeId": "57a30b968ffdc168217f96bd",
+            "displayName": "Credit Reporting",
+            "name": "credit-reporting",
+            "ver": "58a30005270f68432d460a92",
+            "varId": "58a2fd811ce3044b6963ade3",
+            "__v": 0
+        }, {
+            "_id": "58a2fd916258fd28627de333",
+            "id": "58a2fd811ce3044b6963aded",
+            "varType": "default",
+            "publishAt": "2017-02-14T12:52:17.791Z",
+            "varName": "default",
+            "historyNames": ["reviews"],
+            "siteId": "57a30b909cd52c6d20081b0c",
+            "verticalId": "58a2fcd81ce3044b6963adca",
+            "segmentId": "58a2fd7f1ce3044b6963add5",
+            "order": 2,
+            "pageTypeId": "57a30b92e1b4a2b304361285",
+            "displayName": "Reviews",
+            "name": "reviews",
+            "ver": "58a2fd811ce3044b6963adee",
+            "varId": "58a2fd811ce3044b6963adec",
+            "__v": 0
+        }, {
+            "_id": "58a2fd916258fd28627de336",
+            "id": "58a2fd80270f68432d460a77",
+            "varType": "default",
+            "publishAt": "2017-02-14T12:52:16.802Z",
+            "varName": "default",
+            "historyNames": ["learn-more"],
+            "siteId": "57a30b909cd52c6d20081b0c",
+            "verticalId": "58a2fcd81ce3044b6963adca",
+            "segmentId": "58a2fd7f1ce3044b6963add5",
+            "order": 3,
+            "pageTypeId": "57a30b92e1b4a2b30436128d",
+            "displayName": "Learn More",
+            "name": "learn-more",
+            "ver": "58a2fd80270f68432d460a78",
+            "varId": "58a2fd80270f68432d460a76",
+            "__v": 0
+        }],
+        "rapido": {
+            "host": "localhost:6003",
+            "path": "/credit-reports",
+            "qs": {}
+        },
+        "assetsCdn": {
+            "data": "//umbrella.data.naturalint.com",
+            "static": "//umbrella.s3.naturalint.com/xsite/ui-components"
+        },
+        "appName": "rapido",
+        "env": "development",
+        "niEnv": "integration",
+        "envConstants": {
+            "Test": "test",
+            "Development": "development",
+            "DevelopmentPreview": "development-preview",
+            "Integration": "integration",
+            "IntegrationPreview": "integration-preview",
+            "Staging": "staging",
+            "StagingPreview": "staging-preview",
+            "Production": "production",
+            "ProductionPreview": "production-preview"
+        },
+        "breadcrumbSeoSchema": {
+            "@context": "http://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "/",
+                    "name": "Home"
+                }
+            }, {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "/credit-reports",
+                    "name": "Credit Reports"
+                }
+            }]
+        },
+        "geo": {
+            "city": "",
+            "country": "",
+            "region": ""
+        },
+        "ua": {
+            "browser": {
+                "family": "Chrome",
+                "version": "59.0.3071"
+            },
+            "device": {
+                "family": "Other",
+                "type": "desktop"
+            },
+            "os": {
+                "family": "Mac OS X",
+                "version": "10.12.6"
+            }
+        },
+        "tracking": {
+            "funnelManagerUrl": "//cdn.funnel.naturaltracking.com",
+            "trackerUrl": "http://api.naturaltracking.com"
+        },
+        "lang": "EN",
+        "nreum": "<script>window.NREUM</script>",
+        "openGraph": {
+            "type": "article",
+            "title": "Credit Reports UK | Top10.com",
+            "siteName": null,
+            "url": "https://localhost:6003/credit-reports/",
+            "image": null,
+            "article": {
+                "publish": null,
+                "author": null
+            },
+            "site_name": "localhost:6003"
+        },
+        "pageType": {
+            "_id": "57a30b968ffdc168217f96bb",
+            "id": "57a30b968ffdc168217f96b2",
+            "varType": "default",
+            "varId": "57a30b968ffdc168217f96b1",
+            "varName": "default",
+            "siteId": "57a30b909cd52c6d20081b0c",
+            "themeName": "mindup",
+            "layoutName": "top10",
+            "name": "top10",
+            "ver": "5810c99049ed5ade784d1f75",
+            "uiPageType": "chart-page-unification",
+            "uiPageVersion": "0.0.25",
+            "components": [{
+                "type": "pagecomponents-rts",
+                "route": "component/chart/{segment_id}",
+                "placeholder": "chart",
+                "_id": "5810c99049ed5ade784d1f74"
+            }],
+            "__v": 0,
+            "publishAt": "2016-10-26T15:21:00.102Z"
+        },
+        "pageTypeSegment": {
+            "_id": "58a2fd916258fd28627de32c",
+            "id": "58a2fd80270f68432d460a6e",
+            "varType": "default",
+            "publishAt": "2017-02-15T13:47:22.316Z",
+            "varName": "default",
+            "historyNames": ["top-products", "top10-chart"],
+            "siteId": "57a30b909cd52c6d20081b0c",
+            "verticalId": "58a2fcd81ce3044b6963adca",
+            "segmentId": "58a2fd7f1ce3044b6963add5",
+            "order": 0,
+            "pageTypeId": "57a30b968ffdc168217f96b2",
+            "displayName": "Top10 Chart",
+            "name": "top10-chart",
+            "ver": "58a45be720efb2468fdc08de",
+            "varId": "58a2fd80270f68432d460a6d",
+            "__v": 0
+        },
+        "segment": {
+            "_id": "58a45d36fb8e75bf5a546f02",
+            "id": "58a2fd7f1ce3044b6963add5",
+            "varType": "default",
+            "pageTypes": [],
+            "seo": {
+                "follow": false,
+                "index": false,
+                "canonical": "https://localhost:6003/credit-reports/",
+                "description": "Choose from the most reliable credit reporting agencies in the UK",
+                "title": "Credit Reports UK | Top10.com"
+            },
+            "publishAt": "2017-02-26T15:46:26.250Z",
+            "ver": "58b2f84fc5ddec3cdd18cc77",
+            "verticalId": "58a2fcd81ce3044b6963adca",
+            "displayName": "default",
+            "name": "default",
+            "title": "Credit Reports UK",
+            "subTitle": "Choose from the most reliable credit reporting agencies in the UK",
+            "historyNames": ["default"],
+            "varName": "default",
+            "varId": "58a2fd7f1ce3044b6963add4",
+            "__v": 0
+        },
+        "seo": {
+            "follow": false,
+            "index": false,
+            "canonical": "https://localhost:6003/credit-reports/",
+            "description": "Choose from the most reliable credit reporting agencies in the UK",
+            "title": "Credit Reports UK | Top10.com"
+        },
+        "siteId": 263,
+        "vertical": {
+            "_id": "58a2ff8d6258fd28627de33a",
+            "id": "58a2fcd81ce3044b6963adca",
+            "varType": "default",
+            "categories": ["58a2fbfb270f68432d460a67", "57a6dc7f8ef4d0ed3618665f"],
+            "order": 1,
+            "segments": [{
+                "_id": "58a45d36fb8e75bf5a546f02",
+                "id": "58a2fd7f1ce3044b6963add5",
+                "varType": "default",
+                "pageTypes": [],
+                "seo": {
+                    "follow": false,
+                    "index": false,
+                    "canonical": "https://localhost:6003/credit-reports/",
+                    "description": "Choose from the most reliable credit reporting agencies in the UK",
+                    "title": "Credit Reports UK | Top10.com"
+                },
+                "publishAt": "2017-02-26T15:46:26.250Z",
+                "ver": "58b2f84fc5ddec3cdd18cc77",
+                "verticalId": "58a2fcd81ce3044b6963adca",
+                "displayName": "default",
+                "name": "default",
+                "title": "Credit Reports UK",
+                "subTitle": "Choose from the most reliable credit reporting agencies in the UK",
+                "historyNames": ["default"],
+                "varName": "default",
+                "varId": "58a2fd7f1ce3044b6963add4",
+                "__v": 0
+            }],
+            "thumb": {
+                "title": "Credit Reports",
+                "alt": "Credit Report Services",
+                "url": "verticals/uploads/photo/placeholder1.20170214124911.jpg"
+            },
+            "publishAt": "2017-03-29T12:05:53.155Z",
+            "defaultSegmentId": "58a2fd7f1ce3044b6963add5",
+            "ver": "58dba3492ff75708d077df21",
+            "siteId": "57a30b909cd52c6d20081b0c",
+            "name": "credit-reports",
+            "displayName": "Credit Reports",
+            "historyNames": ["credit-reports"],
+            "varName": "default",
+            "varId": "58a2fcd81ce3044b6963adc9",
+            "__v": 0
+        },
+        "websiteSeoSchema": {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "url": "https://localhost:6003/credit-reports/",
+            "name": "localhost:6003",
+            "description": "Credit Reports UK | Top10.com"
+        }
+    },
+    "unification": {
+        "chart": {
+            "_id": "5810a23917ef5b378a756f9e",
+            "id": "57f619786cb7b7a806e9c726",
+            "varId": "59a56a9da8d2cf67d3111a62",
+            "varType": "default",
+            "publishAt": "2017-08-29T13:22:43.632Z",
+            "sortingFeatureList": [
+                {
+                    "displayName": "Our Top Picks",
+                    "_id": "57f619786cb7b7a806e9c734",
+                    "showByProductList": true,
+                    "featureId": "54a28821636d731c3d000000"
+                },
+                {
+                    "displayName": "Top10 Score",
+                    "_id": "57f619786cb7b7a806e9c733",
+                    "showByTopScore": true,
+                    "featureId": "54a28821636d731c3d000001"
+                }
+            ],
+            "bottomLine": {
+                "show": true,
+                "featureId": "57f65e395585ae8d5d0e98bc",
+                "isProductReview": false,
+                "leftDisplayName": "Bottom line"
+            },
+            "bullet1": {
+                "featureId": "54a28821636d731c3d000001",
+                "isOverallExpertScore": false,
+                "isOverallTopScore": true,
+                "name": "Overall product score",
+                "rightDisplayName": "",
+                "leftDisplayName": "Overall product score:"
+            },
+            "bullet2": {
+                "featureId": "57ece751e1af31de21b626b3",
+                "isOverallExpertScore": false,
+                "isOverallTopScore": false,
+                "name": "Selling point 2",
+                "leftDisplayName": ""
+            },
+            "bullet3": {
+                "featureId": "57ece760e1af31de21b626ba",
+                "isOverallExpertScore": false,
+                "isOverallTopScore": false,
+                "name": "Selling point 3",
+                "leftDisplayName": ""
+            },
+            "bullet4": {
+                "showOldPrice": true,
+                "featureId": "57ece467e1af31de21b625b8",
+                "isOverallExpertScore": false,
+                "isOverallTopScore": false,
+                "name": "Monthly Price - use this",
+                "leftDisplayName": "Monthly Price:"
+            },
+            "phoneNumber": {
+                "featureId": "5991b2f35807a000015c395a",
+                "productFeatureId": "5991b2f35807a000015c395a",
+                "show": true,
+                "inputType": "phone",
+                "value": "(866)481-0668",
+                "formattedValue": "(866)481-0668"
+            },
+            "products": [
+                {
+                    "_id": "5810a12a17ef5b378a756d08",
+                    "id": "57a901de957296596183777d",
+                    "varId": "57a901de957296596183777c",
+                    "varType": "default",
+                    "publishAt": "2017-03-29T12:06:06.332Z",
+                    "historyNames": [
+                        "zoosk"
+                    ],
+                    "__v": 0,
+                    "ver": "58dba357a518236e84d50cc4",
+                    "siteId": "57a30b909cd52c6d20081b0c",
+                    "verticalId": "57a319d6bbff37fa3eea177c",
+                    "segmentId": "57a319f70eb3e7871fa49ff3",
+                    "partnerId": "57a8f94bc87db97602183394",
+                    "productId": "57a901de957296596183777d",
+                    "linkId": 24394,
+                    "displayName": "Zoosk",
+                    "name": "zoosk",
+                    "logoPath": "products/uploads/photo/zoosk.20161006101242.png",
+                    "varName": "default",
+                    "score": "9.8",
+                    "position": 1,
+                    "pppBadge": true,
+                    "recommendedProduct": true,
+                    "randReviewCount": 680,
+                    "staticStarRating": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "staticFreeRibbon": "Free for 30 days",
+                    "scoreText": "Outstanding",
+                    "legacyId": 11,
+                    "socialProof": {
+                        "show": true,
+                        "_clickouts": 0,
+                        "clickouts": 2011,
+                        "textBeforeValue": "before",
+                        "textAfterValue": "after"
+                    },
+                    "bottomLine": {
+                        "displayName": "Tens of millions of users; Great for casual dating; Available in 25 languages",
+                        "productReview": false,
+                        "featureId": "57f65e395585ae8d5d0e98bc",
+                        "show": true
+                    },
+                    "bullets": [
+                        {
+                            "type": "bullet1",
+                            "productFeatureId": "54a28821636d731c3d000001",
+                            "leftDisplayName": "Overall product score:",
+                            "rightDisplayName": "",
+                            "displayName": "Overall product score: 9.8 ",
+                            "index": 1,
+                            "sortKey": "54a28821636d731c3d000001",
+                            "sortType": "byTopScore"
+                        },
+                        {
+                            "type": "bullet2",
+                            "productFeatureId": "57ece751e1af31de21b626b3",
+                            "leftDisplayName": "",
+                            "rightDisplayName": "",
+                            "displayName": " Behavioral Matchmaking improves matches daily ",
+                            "index": 2
+                        },
+                        {
+                            "type": "bullet3",
+                            "productFeatureId": "57ece760e1af31de21b626ba",
+                            "leftDisplayName": "",
+                            "rightDisplayName": "",
+                            "displayName": " Video verification makes Zoosk #1 for safety ",
+                            "index": 3
+                        },
+                        {
+                            "type": "bullet4",
+                            "productFeatureId": "57ece467e1af31de21b625b8",
+                            "leftDisplayName": "Monthly Price:",
+                            "rightDisplayName": "",
+                            "displayName": "Monthly Price: $11.24  ",
+                            "index": 4
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "productFeatureId": "54a28821636d731c3d000001",
+                            "leftDisplayName": "Overall product score:",
+                            "rightDisplayName": "",
+                            "isOverallTopScore": true,
+                            "value": "9.8",
+                            "formattedValue": "9.8",
+                            "index": 1,
+                            "sortKey": "54a28821636d731c3d000001",
+                            "sortType": "byTopScore"
+                        },
+                        {
+                            "productFeatureId": "57ece751e1af31de21b626b3",
+                            "leftDisplayName": "",
+                            "rightDisplayName": "",
+                            "inputType": "text",
+                            "value": "Behavioral Matchmaking improves matches daily",
+                            "formattedValue": "Behavioral Matchmaking improves matches daily",
+                            "index": 2
+                        },
+                        {
+                            "productFeatureId": "57ece760e1af31de21b626ba",
+                            "leftDisplayName": "",
+                            "rightDisplayName": "",
+                            "inputType": "text",
+                            "value": "Video verification makes Zoosk #1 for safety",
+                            "formattedValue": "Video verification makes Zoosk #1 for safety",
+                            "index": 3
+                        },
+                        {
+                            "productFeatureId": "57ece467e1af31de21b625b8",
+                            "leftDisplayName": "Monthly Price:",
+                            "rightDisplayName": "",
+                            "inputType": "currency",
+                            "value": {
+                                "fixedPriceDiscountPercentage": 10,
+                                "fixedPriceNewPrice": null,
+                                "fixedPriceDiscountType": "percentage",
+                                "currency": "USD",
+                                "priceType": "fixed_price",
+                                "fixedPriceValue": 12.49
+                            },
+                            "formattedValue": "$11.24 ",
+                            "newPrice": "$11.24",
+                            "oldPrice": "$12.49",
+                            "index": 4
+                        }
+                    ],
+                    "ratingValArr": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "votingValue": 680,
+                    "phoneShow": true,
+                    "phoneDisplayName": "(866)481-0666",
+                    "inputType": "currency",
+                    "showOldPrice": true,
+                    "newPrice": "$11.24",
+                    "oldPrice": "$12.49",
+                    "specialPrice": {
+                        "_id": "59a56a27a8d2cf67d3111a07",
+                        "textAfterValue": " ",
+                        "textBeforeValue": "Monthly Price: ",
+                        "featureId": "57ece467e1af31de21b625b8",
+                        "show": true,
+                        "newPrice": "$15.99",
+                        "oldPrice": "$15.99"
+                    },
+                    "phoneNumber": {
+                        "featureId": "5991b2f35807a000015c395a",
+                        "productFeatureId": "5991b2f35807a000015c395a",
+                        "show": true,
+                        "inputType": "phone",
+                        "value": "(866)481-0668",
+                        "formattedValue": "(866)481-0668"
+                    },
+                    "sorting": [
+                        {
+                            "type": "byProductList",
+                            "key": "54a28821636d731c3d000000",
+                            "value": 1
+                        },
+                        {
+                            "type": "byTopScore",
+                            "key": "54a28821636d731c3d000001",
+                            "value": "9.8"
+                        }
+                    ],
+                    "affiliateLink": "/visit?product_id=11&url=http%3A%2F%2Faffiliate.zantracker.com%2Frd%2Fr.php%3Fsid%3D551%26pub%3D500138%26c1%3DNI_WE*000551_010101%26c2%3D010101%26c3%3D%5Btracking-subid%5D&cms_platform=xsite&d=localhost%3A6003&rank=1&bi=%7B%22p%22%3A11%2C%22site_id%22%3A%22263%22%2C%22curi%22%3A%22%2Fonline-dating%22%2C%22blrs%22%3A24394%2C%22plv%22%3A%225828a2c403925fe404496bef%22%2C%22sv%22%3A%22584807122a60b5a810afed11%22%2C%22vv%22%3A%22582c5164881b9ede04f33f7d%22%2C%22refdomain%22%3A%22com%22%2C%22verticalId%22%3A%2257a319d6bbff37fa3eea177c%22%2C%22segmentId%22%3A%2257a319f70eb3e7871fa49ff3%22%7D",
+                    "bi": {
+                        "p": 11,
+                        "site_id": "263",
+                        "curi": "/online-dating",
+                        "blrs": 24394,
+                        "plv": "5828a2c403925fe404496bef",
+                        "sv": "584807122a60b5a810afed11",
+                        "vv": "582c5164881b9ede04f33f7d",
+                        "refdomain": "com",
+                        "verticalId": "57a319d6bbff37fa3eea177c",
+                        "segmentId": "57a319f70eb3e7871fa49ff3"
+                    }
+                },
+                {
+                    "_id": "5810a13117ef5b378a756d10",
+                    "id": "57a8ff36ff9e274639e696e6",
+                    "varId": "57a8ff36ff9e274639e696e5",
+                    "varType": "default",
+                    "publishAt": "2016-11-13T16:00:01.913Z",
+                    "historyNames": [
+                        "matchcom"
+                    ],
+                    "__v": 0,
+                    "ver": "582888ec2464dff204918bd3",
+                    "siteId": "57a30b909cd52c6d20081b0c",
+                    "verticalId": "57a319d6bbff37fa3eea177c",
+                    "segmentId": "57a319f70eb3e7871fa49ff3",
+                    "partnerId": "57a8f54ec87db97602183374",
+                    "productId": "57a8ff36ff9e274639e696e6",
+                    "linkId": 23903,
+                    "displayName": "Match.com",
+                    "name": "matchcom",
+                    "logoPath": "https://umbrella.data.naturalint.com/production/business-entities-bos/uploads/photo/match.20161006144227.png",
+                    "varName": "default",
+                    "score": "9.3",
+                    "position": 2,
+                    "showRibbon": true,
+                    "ribbonDisplay": "Customer Service Prize 2015",
+                    "saleBadge": true,
+                    "recommendedProduct": true,
+                    "randReviewCount": 512,
+                    "staticStarRating": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "staticFreeRibbon": "Free for 14 days",
+                    "scoreText": "Excellent",
+                    "legacyId": 571,
+                    "bottomLine": {
+                        "displayName": "Great & unique features; 6-month guarantee",
+                        "productReview": false,
+                        "featureId": "57f65e395585ae8d5d0e98bc",
+                        "show": true
+                    },
+                    "bullets": [
+                        {
+                            "type": "bullet1",
+                            "productFeatureId": "54a28821636d731c3d000001",
+                            "leftDisplayName": "Overall product score:",
+                            "rightDisplayName": "",
+                            "displayName": "Overall product score: 9.3 ",
+                            "index": 1,
+                            "sortKey": "54a28821636d731c3d000001",
+                            "sortType": "byTopScore"
+                        },
+                        {
+                            "type": "bullet2",
+                            "productFeatureId": "57ece751e1af31de21b626b3",
+                            "leftDisplayName": "",
+                            "rightDisplayName": "",
+                            "displayName": " Match Synapse matches you intelligently ",
+                            "index": 2
+                        },
+                        {
+                            "type": "bullet3",
+                            "productFeatureId": "57ece760e1af31de21b626ba",
+                            "leftDisplayName": "",
+                            "rightDisplayName": "",
+                            "displayName": " Deal Breaker helps you avoid unwanted matches ",
+                            "index": 3
+                        },
+                        {
+                            "type": "bullet4",
+                            "productFeatureId": "57ece467e1af31de21b625b8",
+                            "leftDisplayName": "Monthly Price:",
+                            "rightDisplayName": "",
+                            "displayName": "Monthly Price: $14.99  ",
+                            "index": 4
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "productFeatureId": "54a28821636d731c3d000001",
+                            "leftDisplayName": "Overall product score:",
+                            "rightDisplayName": "",
+                            "isOverallTopScore": true,
+                            "value": "9.3",
+                            "formattedValue": "9.3",
+                            "index": 1,
+                            "sortKey": "54a28821636d731c3d000001",
+                            "sortType": "byTopScore"
+                        },
+                        {
+                            "productFeatureId": "57ece751e1af31de21b626b3",
+                            "leftDisplayName": "",
+                            "rightDisplayName": "",
+                            "inputType": "text",
+                            "value": "Match Synapse matches you intelligently",
+                            "formattedValue": "Match Synapse matches you intelligently",
+                            "index": 2
+                        },
+                        {
+                            "productFeatureId": "57ece760e1af31de21b626ba",
+                            "leftDisplayName": "",
+                            "rightDisplayName": "",
+                            "inputType": "text",
+                            "value": "Deal Breaker helps you avoid unwanted matches",
+                            "formattedValue": "Deal Breaker helps you avoid unwanted matches",
+                            "index": 3
+                        },
+                        {
+                            "productFeatureId": "57ece467e1af31de21b625b8",
+                            "leftDisplayName": "Monthly Price:",
+                            "rightDisplayName": "",
+                            "inputType": "currency",
+                            "value": {
+                                "currency": "USD",
+                                "priceType": "fixed_price",
+                                "fixedPriceValue": 14.99
+                            },
+                            "formattedValue": "$14.99 ",
+                            "newPrice": "$14.99",
+                            "index": 4
+                        }
+                    ],
+                    "ratingValArr": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "votingValue": 512,
+                    "phoneShow": true,
+                    "inputType": "currency",
+                    "showOldPrice": false,
+                    "newPrice": "$14.99",
+                    "oldPrice": "$14.99",
+                    "noDiscount": true,
+                    "specialPrice": {
+                        "_id": "59a56a27a8d2cf67d3111a07",
+                        "textAfterValue": " ",
+                        "textBeforeValue": "Monthly Price: ",
+                        "featureId": "57ece467e1af31de21b625b8",
+                        "show": true,
+                        "newPrice": "$15.99",
+                        "oldPrice": "$15.99"
+                    },
+                    "sorting": [
+                        {
+                            "type": "byProductList",
+                            "key": "54a28821636d731c3d000000",
+                            "value": 2
+                        },
+                        {
+                            "type": "byTopScore",
+                            "key": "54a28821636d731c3d000001",
+                            "value": "9.3"
+                        }
+                    ],
+                    "affiliateLink": "/visit?product_id=571&url=http%3A%2F%2Fwww.match.com%2Fcpx%2Fen-us%2Flanding%2Fdisplay%2F84123%3FtrackingID%3D528025%26bannerid%3D9347776%26CPV2%3D%5Btracking-subid%5D&cms_platform=xsite&d=localhost%3A6003&rank=2&bi=%7B%22p%22%3A571%2C%22site_id%22%3A%22263%22%2C%22curi%22%3A%22%2Fonline-dating%22%2C%22blrs%22%3A23903%2C%22plv%22%3A%225828a2c403925fe404496bef%22%2C%22sv%22%3A%22584807122a60b5a810afed11%22%2C%22vv%22%3A%22582c5164881b9ede04f33f7d%22%2C%22refdomain%22%3A%22com%22%2C%22verticalId%22%3A%2257a319d6bbff37fa3eea177c%22%2C%22segmentId%22%3A%2257a319f70eb3e7871fa49ff3%22%7D",
+                    "bi": {
+                        "p": 571,
+                        "site_id": "263",
+                        "curi": "/online-dating",
+                        "blrs": 23903,
+                        "plv": "5828a2c403925fe404496bef",
+                        "sv": "584807122a60b5a810afed11",
+                        "vv": "582c5164881b9ede04f33f7d",
+                        "refdomain": "com",
+                        "verticalId": "57a319d6bbff37fa3eea177c",
+                        "segmentId": "57a319f70eb3e7871fa49ff3"
+                    }
+                },
+                {
+                    "_id": "5810a13717ef5b378a756d16",
+                    "id": "57a8ff98957296596183775b",
+                    "varId": "57a8ff98957296596183775a",
+                    "varType": "default",
+                    "publishAt": "2017-03-29T12:06:02.733Z",
+                    "historyNames": [
+                        "ourtime"
+                    ],
+                    "__v": 0,
+                    "ver": "58dba353a518236e84d50cb8",
+                    "siteId": "57a30b909cd52c6d20081b0c",
+                    "verticalId": "57a319d6bbff37fa3eea177c",
+                    "segmentId": "57a319f70eb3e7871fa49ff3",
+                    "partnerId": "57a8f62cc87db9760218337c",
+                    "productId": "57a8ff98957296596183775b",
+                    "linkId": 23904,
+                    "displayName": "OurTime",
+                    "name": "ourtime",
+                    "logoPath": "products/uploads/photo/our_time.20161006144251.png",
+                    "varName": "default",
+                    "score": "9.3",
+                    "position": 3,
+                    "randReviewCount": 399,
+                    "staticStarRating": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        0
+                    ],
+                    "staticFreeRibbon": "Free for 30 days",
+                    "scoreText": "Excellent",
+                    "legacyId": 7,
+                    "bottomLine": {
+                        "displayName": "Quick & easy registration; Matches likeminded singles 50+",
+                        "productReview": false,
+                        "featureId": "57f65e395585ae8d5d0e98bc",
+                        "show": true
+                    },
+                    "bullets": [
+                        {
+                            "type": "bullet1",
+                            "productFeatureId": "54a28821636d731c3d000001",
+                            "leftDisplayName": "Overall product score:",
+                            "rightDisplayName": "",
+                            "displayName": "Overall product score: 9.3 ",
+                            "index": 1,
+                            "sortKey": "54a28821636d731c3d000001",
+                            "sortType": "byTopScore"
+                        },
+                        {
+                            "type": "bullet2",
+                            "productFeatureId": "57ece751e1af31de21b626b3",
+                            "leftDisplayName": "",
+                            "rightDisplayName": "",
+                            "displayName": " 2 fun and simple mobile dating apps ",
+                            "index": 2
+                        },
+                        {
+                            "type": "bullet3",
+                            "productFeatureId": "57ece760e1af31de21b626ba",
+                            "leftDisplayName": "",
+                            "rightDisplayName": "",
+                            "displayName": " Keyword search helps you find your match ",
+                            "index": 3
+                        },
+                        {
+                            "type": "bullet4",
+                            "productFeatureId": "57ece467e1af31de21b625b8",
+                            "leftDisplayName": "Monthly Price:",
+                            "rightDisplayName": "",
+                            "displayName": "Monthly Price: $11.25  ",
+                            "index": 4
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "productFeatureId": "54a28821636d731c3d000001",
+                            "leftDisplayName": "Overall product score:",
+                            "rightDisplayName": "",
+                            "isOverallTopScore": true,
+                            "value": "9.3",
+                            "formattedValue": "9.3",
+                            "index": 1,
+                            "sortKey": "54a28821636d731c3d000001",
+                            "sortType": "byTopScore"
+                        },
+                        {
+                            "productFeatureId": "57ece751e1af31de21b626b3",
+                            "leftDisplayName": "",
+                            "rightDisplayName": "",
+                            "inputType": "text",
+                            "value": "2 fun and simple mobile dating apps",
+                            "formattedValue": "2 fun and simple mobile dating apps",
+                            "index": 2
+                        },
+                        {
+                            "productFeatureId": "57ece760e1af31de21b626ba",
+                            "leftDisplayName": "",
+                            "rightDisplayName": "",
+                            "inputType": "text",
+                            "value": "Keyword search helps you find your match",
+                            "formattedValue": "Keyword search helps you find your match",
+                            "index": 3
+                        },
+                        {
+                            "productFeatureId": "57ece467e1af31de21b625b8",
+                            "leftDisplayName": "Monthly Price:",
+                            "rightDisplayName": "",
+                            "inputType": "currency",
+                            "value": {
+                                "currency": "USD",
+                                "priceType": "fixed_price",
+                                "fixedPriceValue": 11.25
+                            },
+                            "formattedValue": "$11.25 ",
+                            "newPrice": "$11.25",
+                            "index": 4
+                        }
+                    ],
+                    "ratingValArr": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        0
+                    ],
+                    "votingValue": 399,
+                    "phoneShow": true,
+                    "inputType": "currency",
+                    "showOldPrice": false,
+                    "newPrice": "$11.25",
+                    "oldPrice": "$11.25",
+                    "noDiscount": true,
+                    "specialPrice": {
+                        "_id": "59a56a27a8d2cf67d3111a07",
+                        "textAfterValue": " ",
+                        "textBeforeValue": "Monthly Price: ",
+                        "featureId": "57ece467e1af31de21b625b8",
+                        "show": true,
+                        "newPrice": "$15.99",
+                        "oldPrice": "$15.99"
+                    },
+                    "sorting": [
+                        {
+                            "type": "byProductList",
+                            "key": "54a28821636d731c3d000000",
+                            "value": 3
+                        },
+                        {
+                            "type": "byTopScore",
+                            "key": "54a28821636d731c3d000001",
+                            "value": "9.3"
+                        }
+                    ],
+                    "affiliateLink": "/visit?product_id=7&url=http%3A%2F%2Fwww.ourtime.com%2F%3Fsid%3D714%26afid%3D%5Btracking-subid%5D&cms_platform=xsite&d=localhost%3A6003&rank=3&bi=%7B%22p%22%3A7%2C%22site_id%22%3A%22263%22%2C%22curi%22%3A%22%2Fonline-dating%22%2C%22blrs%22%3A23904%2C%22plv%22%3A%225828a2c403925fe404496bef%22%2C%22sv%22%3A%22584807122a60b5a810afed11%22%2C%22vv%22%3A%22582c5164881b9ede04f33f7d%22%2C%22refdomain%22%3A%22com%22%2C%22verticalId%22%3A%2257a319d6bbff37fa3eea177c%22%2C%22segmentId%22%3A%2257a319f70eb3e7871fa49ff3%22%7D",
+                    "bi": {
+                        "p": 7,
+                        "site_id": "263",
+                        "curi": "/online-dating",
+                        "blrs": 23904,
+                        "plv": "5828a2c403925fe404496bef",
+                        "sv": "584807122a60b5a810afed11",
+                        "vv": "582c5164881b9ede04f33f7d",
+                        "refdomain": "com",
+                        "verticalId": "57a319d6bbff37fa3eea177c",
+                        "segmentId": "57a319f70eb3e7871fa49ff3"
+                    }
+                },
+                {
+                    "_id": "5810a13c17ef5b378a756d1c",
+                    "id": "57a8fd5dff9e274639e696b9",
+                    "varId": "57a8fd5dff9e274639e696b8",
+                    "varType": "default",
+                    "publishAt": "2017-03-29T12:05:59.955Z",
+                    "historyNames": [
+                        "elite-singles",
+                        "elite"
+                    ],
+                    "__v": 0,
+                    "ver": "58dba350a518236e84d50caf",
+                    "siteId": "57a30b909cd52c6d20081b0c",
+                    "verticalId": "57a319d6bbff37fa3eea177c",
+                    "segmentId": "57a319f70eb3e7871fa49ff3",
+                    "partnerId": "57a8f2f2ff9e274639e6967b",
+                    "productId": "57a8fd5dff9e274639e696b9",
+                    "linkId": 23905,
+                    "displayName": "Elite",
+                    "name": "elite",
+                    "logoPath": "products/uploads/photo/elite_singles.20161006144123.png",
+                    "varName": "default",
+                    "score": "9.0",
+                    "position": 4,
+                    "randReviewCount": 350,
+                    "staticStarRating": [
+                        1,
+                        1,
+                        1,
+                        0.5,
+                        0
+                    ],
+                    "staticFreeRibbon": "Free for 10 days",
+                    "scoreText": "Excellent",
+                    "legacyId": 1653,
+                    "socialProof": {
+                        "show": true,
+                        "_clickouts": 0,
+                        "clickouts": 2011,
+                        "textBeforeValue": "before",
+                        "textAfterValue": "after"
+                    },
+                    "bottomLine": {
+                        "displayName": "2,500 matches every month; Intelligent matching algorithm",
+                        "productReview": false,
+                        "featureId": "57f65e395585ae8d5d0e98bc",
+                        "show": true
+                    },
+                    "bullets": [
+                        {
+                            "type": "bullet1",
+                            "productFeatureId": "54a28821636d731c3d000001",
+                            "leftDisplayName": "Overall product score:",
+                            "rightDisplayName": "",
+                            "displayName": "Overall product score: 9.0 ",
+                            "index": 1,
+                            "sortKey": "54a28821636d731c3d000001",
+                            "sortType": "byTopScore"
+                        },
+                        {
+                            "type": "bullet2",
+                            "productFeatureId": "57ece751e1af31de21b626b3",
+                            "leftDisplayName": "",
+                            "rightDisplayName": "",
+                            "displayName": " Proven successful personality quiz on sign up ",
+                            "index": 2
+                        },
+                        {
+                            "type": "bullet3",
+                            "productFeatureId": "57ece760e1af31de21b626ba",
+                            "leftDisplayName": "",
+                            "rightDisplayName": "",
+                            "displayName": " Daily matches targeted to your needs ",
+                            "index": 3
+                        },
+                        {
+                            "type": "bullet4",
+                            "productFeatureId": "57ece467e1af31de21b625b8",
+                            "leftDisplayName": "Monthly Price:",
+                            "rightDisplayName": "",
+                            "displayName": "Monthly Price: $24.95  ",
+                            "index": 4
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "productFeatureId": "54a28821636d731c3d000001",
+                            "leftDisplayName": "Overall product score:",
+                            "rightDisplayName": "",
+                            "isOverallTopScore": true,
+                            "value": "9.0",
+                            "formattedValue": "9.0",
+                            "index": 1,
+                            "sortKey": "54a28821636d731c3d000001",
+                            "sortType": "byTopScore"
+                        },
+                        {
+                            "productFeatureId": "57ece751e1af31de21b626b3",
+                            "leftDisplayName": "",
+                            "rightDisplayName": "",
+                            "inputType": "text",
+                            "value": "Proven successful personality quiz on sign up",
+                            "formattedValue": "Proven successful personality quiz on sign up",
+                            "index": 2
+                        },
+                        {
+                            "productFeatureId": "57ece760e1af31de21b626ba",
+                            "leftDisplayName": "",
+                            "rightDisplayName": "",
+                            "inputType": "text",
+                            "value": "Daily matches targeted to your needs",
+                            "formattedValue": "Daily matches targeted to your needs",
+                            "index": 3
+                        },
+                        {
+                            "productFeatureId": "57ece467e1af31de21b625b8",
+                            "leftDisplayName": "Monthly Price:",
+                            "rightDisplayName": "",
+                            "inputType": "currency",
+                            "value": {
+                                "currency": "USD",
+                                "priceType": "fixed_price",
+                                "fixedPriceValue": 24.95
+                            },
+                            "formattedValue": "$24.95 ",
+                            "newPrice": "$24.95",
+                            "index": 4
+                        }
+                    ],
+                    "ratingValArr": [
+                        1,
+                        1,
+                        1,
+                        0.5,
+                        0
+                    ],
+                    "votingValue": 350,
+                    "phoneShow": true,
+                    "inputType": "currency",
+                    "showOldPrice": false,
+                    "newPrice": "$24.95",
+                    "oldPrice": "$24.95",
+                    "noDiscount": true,
+                    "specialPrice": {
+                        "_id": "59a56a27a8d2cf67d3111a07",
+                        "textAfterValue": " ",
+                        "textBeforeValue": "Monthly Price: ",
+                        "featureId": "57ece467e1af31de21b625b8",
+                        "show": true,
+                        "newPrice": "$15.99",
+                        "oldPrice": "$15.99"
+                    },
+                    "sorting": [
+                        {
+                            "type": "byProductList",
+                            "key": "54a28821636d731c3d000000",
+                            "value": 4
+                        },
+                        {
+                            "type": "byTopScore",
+                            "key": "54a28821636d731c3d000001",
+                            "value": "9.0"
+                        }
+                    ],
+                    "affiliateLink": "/visit?product_id=1653&url=http%3A%2F%2Fwww.affinitas-affiliate.com%2Fgo.cgi%3Fpid%3D102%26wmid%3D401%26cpid%3D14%26prid%3D336%26subid%3D%5Btracking-subid%5D%26target%3DELITESINGLES.com-default&cms_platform=xsite&d=localhost%3A6003&rank=4&bi=%7B%22p%22%3A1653%2C%22site_id%22%3A%22263%22%2C%22curi%22%3A%22%2Fonline-dating%22%2C%22blrs%22%3A23905%2C%22plv%22%3A%225828a2c403925fe404496bef%22%2C%22sv%22%3A%22584807122a60b5a810afed11%22%2C%22vv%22%3A%22582c5164881b9ede04f33f7d%22%2C%22refdomain%22%3A%22com%22%2C%22verticalId%22%3A%2257a319d6bbff37fa3eea177c%22%2C%22segmentId%22%3A%2257a319f70eb3e7871fa49ff3%22%7D",
+                    "bi": {
+                        "p": 1653,
+                        "site_id": "263",
+                        "curi": "/online-dating",
+                        "blrs": 23905,
+                        "plv": "5828a2c403925fe404496bef",
+                        "sv": "584807122a60b5a810afed11",
+                        "vv": "582c5164881b9ede04f33f7d",
+                        "refdomain": "com",
+                        "verticalId": "57a319d6bbff37fa3eea177c",
+                        "segmentId": "57a319f70eb3e7871fa49ff3"
+                    }
+                },
+                {
+                    "_id": "5810a14217ef5b378a756d22",
+                    "id": "57a8fc21ff9e274639e696ab",
+                    "varId": "57a8fc21ff9e274639e696aa",
+                    "varType": "default",
+                    "publishAt": "2017-03-29T12:05:59.075Z",
+                    "historyNames": [
+                        "eharmony"
+                    ],
+                    "__v": 0,
+                    "ver": "58dba34fa518236e84d50cac",
+                    "siteId": "57a30b909cd52c6d20081b0c",
+                    "verticalId": "57a319d6bbff37fa3eea177c",
+                    "segmentId": "57a319f70eb3e7871fa49ff3",
+                    "partnerId": "57a8f239c87db9760218336c",
+                    "productId": "57a8fc21ff9e274639e696ab",
+                    "linkId": 23906,
+                    "displayName": "eHarmony",
+                    "name": "eharmony",
+                    "logoPath": "products/uploads/photo/e_harmony.20161006144111.png",
+                    "varName": "default",
+                    "score": "8.8",
+                    "position": 5,
+                    "randReviewCount": 290,
+                    "staticStarRating": [
+                        1,
+                        1,
+                        1,
+                        0.5,
+                        0
+                    ],
+                    "staticFreeRibbon": "Free for 30 days",
+                    "scoreText": "Great",
+                    "legacyId": 572,
+                    "bottomLine": {
+                        "displayName": "Best match suggestions; Large user base; optimum privacy; suggested matches",
+                        "productReview": false,
+                        "featureId": "57f65e395585ae8d5d0e98bc",
+                        "show": true
+                    },
+                    "bullets": [
+                        {
+                            "type": "bullet1",
+                            "productFeatureId": "54a28821636d731c3d000001",
+                            "leftDisplayName": "Overall product score:",
+                            "rightDisplayName": "",
+                            "displayName": "Overall product score: 8.8 ",
+                            "index": 1,
+                            "sortKey": "54a28821636d731c3d000001",
+                            "sortType": "byTopScore"
+                        },
+                        {
+                            "type": "bullet2",
+                            "productFeatureId": "57ece751e1af31de21b626b3",
+                            "leftDisplayName": "",
+                            "rightDisplayName": "",
+                            "displayName": " Powerful and intutive Book of You ",
+                            "index": 2
+                        },
+                        {
+                            "type": "bullet3",
+                            "productFeatureId": "57ece760e1af31de21b626ba",
+                            "leftDisplayName": "",
+                            "rightDisplayName": "",
+                            "displayName": " Guided communication helps you break the ice ",
+                            "index": 3
+                        },
+                        {
+                            "type": "bullet4",
+                            "productFeatureId": "57ece467e1af31de21b625b8",
+                            "leftDisplayName": "Monthly Price:",
+                            "rightDisplayName": "",
+                            "displayName": "Monthly Price: $31.95  ",
+                            "index": 4
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "productFeatureId": "54a28821636d731c3d000001",
+                            "leftDisplayName": "Overall product score:",
+                            "rightDisplayName": "",
+                            "isOverallTopScore": true,
+                            "value": "8.8",
+                            "formattedValue": "8.8",
+                            "index": 1,
+                            "sortKey": "54a28821636d731c3d000001",
+                            "sortType": "byTopScore"
+                        },
+                        {
+                            "productFeatureId": "57ece751e1af31de21b626b3",
+                            "leftDisplayName": "",
+                            "rightDisplayName": "",
+                            "inputType": "text",
+                            "value": "Powerful and intutive Book of You",
+                            "formattedValue": "Powerful and intutive Book of You",
+                            "index": 2
+                        },
+                        {
+                            "productFeatureId": "57ece760e1af31de21b626ba",
+                            "leftDisplayName": "",
+                            "rightDisplayName": "",
+                            "inputType": "text",
+                            "value": "Guided communication helps you break the ice",
+                            "formattedValue": "Guided communication helps you break the ice",
+                            "index": 3
+                        },
+                        {
+                            "productFeatureId": "57ece467e1af31de21b625b8",
+                            "leftDisplayName": "Monthly Price:",
+                            "rightDisplayName": "",
+                            "inputType": "currency",
+                            "value": {
+                                "currency": "USD",
+                                "priceType": "fixed_price",
+                                "fixedPriceValue": 31.95
+                            },
+                            "formattedValue": "$31.95 ",
+                            "newPrice": "$31.95",
+                            "index": 4
+                        }
+                    ],
+                    "ratingValArr": [
+                        1,
+                        1,
+                        1,
+                        0.5,
+                        0
+                    ],
+                    "votingValue": 290,
+                    "phoneShow": true,
+                    "phoneDisplayName": "(866)481-0611",
+                    "inputType": "currency",
+                    "showOldPrice": false,
+                    "newPrice": "$31.95",
+                    "oldPrice": "$31.95",
+                    "noDiscount": true,
+                    "specialPrice": {
+                        "_id": "59a56a27a8d2cf67d3111a07",
+                        "textAfterValue": " ",
+                        "textBeforeValue": "Monthly Price: ",
+                        "featureId": "57ece467e1af31de21b625b8",
+                        "show": true,
+                        "newPrice": "$15.99",
+                        "oldPrice": "$15.99"
+                    },
+                    "phoneNumber": {
+                        "featureId": "5991b2f35807a000015c395a",
+                        "productFeatureId": "5991b2f35807a000015c395a",
+                        "show": true,
+                        "inputType": "phone",
+                        "value": "(866)481-0668",
+                        "formattedValue": "(866)481-0668"
+                    },
+                    "sorting": [
+                        {
+                            "type": "byProductList",
+                            "key": "54a28821636d731c3d000000",
+                            "value": 5
+                        },
+                        {
+                            "type": "byTopScore",
+                            "key": "54a28821636d731c3d000001",
+                            "value": "8.8"
+                        }
+                    ],
+                    "affiliateLink": "/visit?product_id=572&url=http%3A%2F%2Fwww.eharmony.com%2Fdating%3Fcid%3D73005%26aid%3D5000%26utm_campaign%3Dranking%26utm_medium%3Daffiliate%26utm_source%3Dni%26pid%3D%5Btracking-subid%5D&cms_platform=xsite&d=localhost%3A6003&rank=5&bi=%7B%22p%22%3A572%2C%22site_id%22%3A%22263%22%2C%22curi%22%3A%22%2Fonline-dating%22%2C%22blrs%22%3A23906%2C%22plv%22%3A%225828a2c403925fe404496bef%22%2C%22sv%22%3A%22584807122a60b5a810afed11%22%2C%22vv%22%3A%22582c5164881b9ede04f33f7d%22%2C%22refdomain%22%3A%22com%22%2C%22verticalId%22%3A%2257a319d6bbff37fa3eea177c%22%2C%22segmentId%22%3A%2257a319f70eb3e7871fa49ff3%22%7D",
+                    "bi": {
+                        "p": 572,
+                        "site_id": "263",
+                        "curi": "/online-dating",
+                        "blrs": 23906,
+                        "plv": "5828a2c403925fe404496bef",
+                        "sv": "584807122a60b5a810afed11",
+                        "vv": "582c5164881b9ede04f33f7d",
+                        "refdomain": "com",
+                        "verticalId": "57a319d6bbff37fa3eea177c",
+                        "segmentId": "57a319f70eb3e7871fa49ff3"
+                    }
+                },
+                {
+                    "_id": "5810a14717ef5b378a756d28",
+                    "id": "57a8fac89572965961837732",
+                    "varId": "57a8fac89572965961837731",
+                    "varType": "default",
+                    "publishAt": "2017-03-29T12:06:38.947Z",
+                    "historyNames": [
+                        "black-people-meet",
+                        "blackpeoplemeet"
+                    ],
+                    "__v": 0,
+                    "ver": "58dba3255fc49e3ac2cfd39b",
+                    "siteId": "57a30b909cd52c6d20081b0c",
+                    "verticalId": "57a319d6bbff37fa3eea177c",
+                    "segmentId": "57a319f70eb3e7871fa49ff3",
+                    "partnerId": "57a8ecfe9572965961837722",
+                    "productId": "57a8fac89572965961837732",
+                    "linkId": 23907,
+                    "displayName": "Black People Meet",
+                    "name": "black-people-meet",
+                    "logoPath": "products/uploads/photo/black_people_meet.20161006144015.png",
+                    "varName": "default",
+                    "score": "8.8",
+                    "position": 6,
+                    "randReviewCount": 245,
+                    "scoreText": "Great",
+                    "legacyId": 495,
+                    "bottomLine": {
+                        "displayName": "Committed to keeping you safe; Over 1,000 singles join daily",
+                        "productReview": false,
+                        "featureId": "57f65e395585ae8d5d0e98bc",
+                        "show": true
+                    },
+                    "bullets": [
+                        {
+                            "type": "bullet1",
+                            "productFeatureId": "54a28821636d731c3d000001",
+                            "leftDisplayName": "Overall product score:",
+                            "rightDisplayName": "",
+                            "displayName": "Overall product score: 8.8 ",
+                            "index": 1,
+                            "sortKey": "54a28821636d731c3d000001",
+                            "sortType": "byTopScore"
+                        },
+                        {
+                            "type": "bullet2",
+                            "productFeatureId": "57ece751e1af31de21b626b3",
+                            "leftDisplayName": "",
+                            "rightDisplayName": "",
+                            "displayName": " Profile greetings help tell you apart ",
+                            "index": 2
+                        },
+                        {
+                            "type": "bullet3",
+                            "productFeatureId": "57ece760e1af31de21b626ba",
+                            "leftDisplayName": "",
+                            "rightDisplayName": "",
+                            "displayName": " Quick and simple 2 minute sign up ",
+                            "index": 3
+                        },
+                        {
+                            "type": "bullet4",
+                            "productFeatureId": "57ece467e1af31de21b625b8",
+                            "leftDisplayName": "Monthly Price:",
+                            "rightDisplayName": "",
+                            "displayName": "Monthly Price: $16  ",
+                            "index": 4
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "productFeatureId": "54a28821636d731c3d000001",
+                            "leftDisplayName": "Overall product score:",
+                            "rightDisplayName": "",
+                            "isOverallTopScore": true,
+                            "value": "8.8",
+                            "formattedValue": "8.8",
+                            "index": 1,
+                            "sortKey": "54a28821636d731c3d000001",
+                            "sortType": "byTopScore"
+                        },
+                        {
+                            "productFeatureId": "57ece751e1af31de21b626b3",
+                            "leftDisplayName": "",
+                            "rightDisplayName": "",
+                            "inputType": "text",
+                            "value": "Profile greetings help tell you apart",
+                            "formattedValue": "Profile greetings help tell you apart",
+                            "index": 2
+                        },
+                        {
+                            "productFeatureId": "57ece760e1af31de21b626ba",
+                            "leftDisplayName": "",
+                            "rightDisplayName": "",
+                            "inputType": "text",
+                            "value": "Quick and simple 2 minute sign up",
+                            "formattedValue": "Quick and simple 2 minute sign up",
+                            "index": 3
+                        },
+                        {
+                            "productFeatureId": "57ece467e1af31de21b625b8",
+                            "leftDisplayName": "Monthly Price:",
+                            "rightDisplayName": "",
+                            "inputType": "currency",
+                            "value": {
+                                "currency": "USD",
+                                "priceType": "fixed_price",
+                                "fixedPriceValue": 16
+                            },
+                            "formattedValue": "$16 ",
+                            "newPrice": "$16.00",
+                            "index": 4
+                        }
+                    ],
+                    "ratingValArr": [
+                        1,
+                        1,
+                        1,
+                        0.5,
+                        0
+                    ],
+                    "votingValue": 245,
+                    "phoneShow": true,
+                    "phoneDisplayName": "(866)481-0669",
+                    "inputType": "currency",
+                    "showOldPrice": false,
+                    "newPrice": "$16.00",
+                    "oldPrice": "$16.00",
+                    "noDiscount": true,
+                    "specialPrice": {
+                        "_id": "59a56a27a8d2cf67d3111a07",
+                        "textAfterValue": " ",
+                        "textBeforeValue": "Monthly Price: ",
+                        "featureId": "57ece467e1af31de21b625b8",
+                        "show": true,
+                        "newPrice": "$15.99",
+                        "oldPrice": "$15.99"
+                    },
+                    "phoneNumber": {
+                        "featureId": "5991b2f35807a000015c395a",
+                        "productFeatureId": "5991b2f35807a000015c395a",
+                        "show": true,
+                        "inputType": "phone",
+                        "value": "(866)481-0668",
+                        "formattedValue": "(866)481-0668"
+                    },
+                    "sorting": [
+                        {
+                            "type": "byProductList",
+                            "key": "54a28821636d731c3d000000",
+                            "value": 6
+                        },
+                        {
+                            "type": "byTopScore",
+                            "key": "54a28821636d731c3d000001",
+                            "value": "8.8"
+                        }
+                    ],
+                    "affiliateLink": "/visit?product_id=495&url=http%3A%2F%2Fwww.blackpeoplemeet.com%2F%3Fsid%3D714%26afid%3D%5Btracking-subid%5D&cms_platform=xsite&d=localhost%3A6003&rank=6&bi=%7B%22p%22%3A495%2C%22site_id%22%3A%22263%22%2C%22curi%22%3A%22%2Fonline-dating%22%2C%22blrs%22%3A23907%2C%22plv%22%3A%225828a2c403925fe404496bef%22%2C%22sv%22%3A%22584807122a60b5a810afed11%22%2C%22vv%22%3A%22582c5164881b9ede04f33f7d%22%2C%22refdomain%22%3A%22com%22%2C%22verticalId%22%3A%2257a319d6bbff37fa3eea177c%22%2C%22segmentId%22%3A%2257a319f70eb3e7871fa49ff3%22%7D",
+                    "bi": {
+                        "p": 495,
+                        "site_id": "263",
+                        "curi": "/online-dating",
+                        "blrs": 23907,
+                        "plv": "5828a2c403925fe404496bef",
+                        "sv": "584807122a60b5a810afed11",
+                        "vv": "582c5164881b9ede04f33f7d",
+                        "refdomain": "com",
+                        "verticalId": "57a319d6bbff37fa3eea177c",
+                        "segmentId": "57a319f70eb3e7871fa49ff3"
+                    }
+                },
+                {
+                    "_id": "5810a14c17ef5b378a756d2e",
+                    "id": "57a900119572965961837765",
+                    "varId": "57a900119572965961837764",
+                    "varType": "default",
+                    "publishAt": "2017-03-29T12:06:03.875Z",
+                    "historyNames": [
+                        "professional-match"
+                    ],
+                    "__v": 0,
+                    "ver": "58dba354a518236e84d50cbb",
+                    "siteId": "57a30b909cd52c6d20081b0c",
+                    "verticalId": "57a319d6bbff37fa3eea177c",
+                    "segmentId": "57a319f70eb3e7871fa49ff3",
+                    "partnerId": "57a8f6ed957296596183772a",
+                    "productId": "57a900119572965961837765",
+                    "linkId": 23908,
+                    "displayName": "Professional Match",
+                    "name": "professional-match",
+                    "logoPath": "products/uploads/photo/professional_match.20161006144416.png",
+                    "varName": "default",
+                    "score": "8.8",
+                    "position": 7,
+                    "randReviewCount": 232,
+                    "scoreText": "Great",
+                    "legacyId": 2460,
+                    "socialProof": {
+                        "show": true,
+                        "_clickouts": 0,
+                        "clickouts": 2011,
+                        "textBeforeValue": "before",
+                        "textAfterValue": "after"
+                    },
+                    "bottomLine": {
+                        "displayName": "Get professionally matched; Let a matchmaker find you love",
+                        "productReview": false,
+                        "featureId": "57f65e395585ae8d5d0e98bc",
+                        "show": true
+                    },
+                    "bullets": [
+                        {
+                            "type": "bullet1",
+                            "productFeatureId": "54a28821636d731c3d000001",
+                            "leftDisplayName": "Overall product score:",
+                            "rightDisplayName": "",
+                            "displayName": "Overall product score: 8.8 ",
+                            "index": 1,
+                            "sortKey": "54a28821636d731c3d000001",
+                            "sortType": "byTopScore"
+                        },
+                        {
+                            "type": "bullet2",
+                            "productFeatureId": "57ece751e1af31de21b626b3",
+                            "leftDisplayName": "",
+                            "rightDisplayName": "",
+                            "displayName": " Matchmakers can sign up from any location ",
+                            "index": 2
+                        },
+                        {
+                            "type": "bullet3",
+                            "productFeatureId": "57ece760e1af31de21b626ba",
+                            "leftDisplayName": "",
+                            "rightDisplayName": "",
+                            "displayName": " Linked with successful dating site AYI ",
+                            "index": 3
+                        },
+                        {
+                            "type": "bullet4",
+                            "productFeatureId": "57ece467e1af31de21b625b8",
+                            "leftDisplayName": "Monthly Price:",
+                            "rightDisplayName": "",
+                            "index": 4
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "productFeatureId": "54a28821636d731c3d000001",
+                            "leftDisplayName": "Overall product score:",
+                            "rightDisplayName": "",
+                            "isOverallTopScore": true,
+                            "value": "8.8",
+                            "formattedValue": "8.8",
+                            "index": 1,
+                            "sortKey": "54a28821636d731c3d000001",
+                            "sortType": "byTopScore"
+                        },
+                        {
+                            "productFeatureId": "57ece751e1af31de21b626b3",
+                            "leftDisplayName": "",
+                            "rightDisplayName": "",
+                            "inputType": "text",
+                            "value": "Matchmakers can sign up from any location",
+                            "formattedValue": "Matchmakers can sign up from any location",
+                            "index": 2
+                        },
+                        {
+                            "productFeatureId": "57ece760e1af31de21b626ba",
+                            "leftDisplayName": "",
+                            "rightDisplayName": "",
+                            "inputType": "text",
+                            "value": "Linked with successful dating site AYI",
+                            "formattedValue": "Linked with successful dating site AYI",
+                            "index": 3
+                        },
+                        {
+                            "productFeatureId": "57ece467e1af31de21b625b8",
+                            "leftDisplayName": "Monthly Price:",
+                            "rightDisplayName": "",
+                            "index": 4
+                        }
+                    ],
+                    "ratingValArr": [
+                        1,
+                        1,
+                        1,
+                        0.5,
+                        0
+                    ],
+                    "votingValue": 232,
+                    "phoneShow": true,
+                    "sorting": [
+                        {
+                            "type": "byProductList",
+                            "key": "54a28821636d731c3d000000",
+                            "value": 7
+                        },
+                        {
+                            "type": "byTopScore",
+                            "key": "54a28821636d731c3d000001",
+                            "value": "8.8"
+                        }
+                    ],
+                    "affiliateLink": "/visit?product_id=2460&url=http%3A%2F%2Fc2trk.com%2F%3Fa%3D59%26c%3D688%26s1%3D%5Btracking-subid%5D&cms_platform=xsite&d=localhost%3A6003&rank=7&bi=%7B%22p%22%3A2460%2C%22site_id%22%3A%22263%22%2C%22curi%22%3A%22%2Fonline-dating%22%2C%22blrs%22%3A23908%2C%22plv%22%3A%225828a2c403925fe404496bef%22%2C%22sv%22%3A%22584807122a60b5a810afed11%22%2C%22vv%22%3A%22582c5164881b9ede04f33f7d%22%2C%22refdomain%22%3A%22com%22%2C%22verticalId%22%3A%2257a319d6bbff37fa3eea177c%22%2C%22segmentId%22%3A%2257a319f70eb3e7871fa49ff3%22%7D",
+                    "bi": {
+                        "p": 2460,
+                        "site_id": "263",
+                        "curi": "/online-dating",
+                        "blrs": 23908,
+                        "plv": "5828a2c403925fe404496bef",
+                        "sv": "584807122a60b5a810afed11",
+                        "vv": "582c5164881b9ede04f33f7d",
+                        "refdomain": "com",
+                        "verticalId": "57a319d6bbff37fa3eea177c",
+                        "segmentId": "57a319f70eb3e7871fa49ff3"
+                    }
+                },
+                {
+                    "_id": "5810a15317ef5b378a756d34",
+                    "id": "57a90120c87db976021833e0",
+                    "varId": "57a90120c87db976021833df",
+                    "varType": "default",
+                    "publishAt": "2017-03-29T12:06:05.511Z",
+                    "historyNames": [
+                        "single-parent-meet",
+                        "singleparentmeet"
+                    ],
+                    "__v": 0,
+                    "ver": "58dba356a518236e84d50cc1",
+                    "siteId": "57a30b909cd52c6d20081b0c",
+                    "verticalId": "57a319d6bbff37fa3eea177c",
+                    "segmentId": "57a319f70eb3e7871fa49ff3",
+                    "partnerId": "57a8f8c0c87db9760218338c",
+                    "productId": "57a90120c87db976021833e0",
+                    "linkId": 23909,
+                    "displayName": "Single Parent Meet",
+                    "name": "single-parent-meet",
+                    "logoPath": "products/uploads/photo/single_parent_meet.20161006144847.png",
+                    "varName": "default",
+                    "score": "8.7",
+                    "position": 8,
+                    "randReviewCount": 125,
+                    "scoreText": "Great",
+                    "legacyId": 6,
+                    "bottomLine": {
+                        "displayName": "Meet other single parents near you; Best dating for single parents",
+                        "productReview": false,
+                        "featureId": "57f65e395585ae8d5d0e98bc",
+                        "show": true
+                    },
+                    "bullets": [
+                        {
+                            "type": "bullet1",
+                            "productFeatureId": "54a28821636d731c3d000001",
+                            "leftDisplayName": "Overall product score:",
+                            "rightDisplayName": "",
+                            "displayName": "Overall product score: 8.7 ",
+                            "index": 1,
+                            "sortKey": "54a28821636d731c3d000001",
+                            "sortType": "byTopScore"
+                        },
+                        {
+                            "type": "bullet2",
+                            "productFeatureId": "57ece751e1af31de21b626b3",
+                            "leftDisplayName": "",
+                            "rightDisplayName": "",
+                            "displayName": " Integration with Care.com for childcare ",
+                            "index": 2
+                        },
+                        {
+                            "type": "bullet3",
+                            "productFeatureId": "57ece760e1af31de21b626ba",
+                            "leftDisplayName": "",
+                            "rightDisplayName": "",
+                            "displayName": " 30 second sign up for busy working parents ",
+                            "index": 3
+                        },
+                        {
+                            "type": "bullet4",
+                            "productFeatureId": "57ece467e1af31de21b625b8",
+                            "leftDisplayName": "Monthly Price:",
+                            "rightDisplayName": "",
+                            "displayName": "Monthly Price: $7.64  ",
+                            "index": 4
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "productFeatureId": "54a28821636d731c3d000001",
+                            "leftDisplayName": "Overall product score:",
+                            "rightDisplayName": "",
+                            "isOverallTopScore": true,
+                            "value": "8.7",
+                            "formattedValue": "8.7",
+                            "index": 1,
+                            "sortKey": "54a28821636d731c3d000001",
+                            "sortType": "byTopScore"
+                        },
+                        {
+                            "productFeatureId": "57ece751e1af31de21b626b3",
+                            "leftDisplayName": "",
+                            "rightDisplayName": "",
+                            "inputType": "text",
+                            "value": "Integration with Care.com for childcare",
+                            "formattedValue": "Integration with Care.com for childcare",
+                            "index": 2
+                        },
+                        {
+                            "productFeatureId": "57ece760e1af31de21b626ba",
+                            "leftDisplayName": "",
+                            "rightDisplayName": "",
+                            "inputType": "text",
+                            "value": "30 second sign up for busy working parents",
+                            "formattedValue": "30 second sign up for busy working parents",
+                            "index": 3
+                        },
+                        {
+                            "productFeatureId": "57ece467e1af31de21b625b8",
+                            "leftDisplayName": "Monthly Price:",
+                            "rightDisplayName": "",
+                            "inputType": "currency",
+                            "value": {
+                                "currency": "USD",
+                                "priceType": "fixed_price",
+                                "fixedPriceValue": 7.64
+                            },
+                            "formattedValue": "$7.64 ",
+                            "newPrice": "$7.64",
+                            "index": 4
+                        }
+                    ],
+                    "ratingValArr": [
+                        1,
+                        1,
+                        1,
+                        0.5,
+                        0
+                    ],
+                    "votingValue": 125,
+                    "phoneShow": true,
+                    "inputType": "currency",
+                    "showOldPrice": false,
+                    "newPrice": "$7.64",
+                    "oldPrice": "$7.64",
+                    "noDiscount": true,
+                    "specialPrice": {
+                        "_id": "59a56a27a8d2cf67d3111a07",
+                        "textAfterValue": " ",
+                        "textBeforeValue": "Monthly Price: ",
+                        "featureId": "57ece467e1af31de21b625b8",
+                        "show": true,
+                        "newPrice": "$15.99",
+                        "oldPrice": "$15.99"
+                    },
+                    "sorting": [
+                        {
+                            "type": "byProductList",
+                            "key": "54a28821636d731c3d000000",
+                            "value": 8
+                        },
+                        {
+                            "type": "byTopScore",
+                            "key": "54a28821636d731c3d000001",
+                            "value": "8.7"
+                        }
+                    ],
+                    "affiliateLink": "/visit?product_id=6&url=http%3A%2F%2Fwww.singleparentmeet.com%2F%3Fsid%3D714%26afid%3D%5Btracking-subid%5D&cms_platform=xsite&d=localhost%3A6003&rank=8&bi=%7B%22p%22%3A6%2C%22site_id%22%3A%22263%22%2C%22curi%22%3A%22%2Fonline-dating%22%2C%22blrs%22%3A23909%2C%22plv%22%3A%225828a2c403925fe404496bef%22%2C%22sv%22%3A%22584807122a60b5a810afed11%22%2C%22vv%22%3A%22582c5164881b9ede04f33f7d%22%2C%22refdomain%22%3A%22com%22%2C%22verticalId%22%3A%2257a319d6bbff37fa3eea177c%22%2C%22segmentId%22%3A%2257a319f70eb3e7871fa49ff3%22%7D",
+                    "bi": {
+                        "p": 6,
+                        "site_id": "263",
+                        "curi": "/online-dating",
+                        "blrs": 23909,
+                        "plv": "5828a2c403925fe404496bef",
+                        "sv": "584807122a60b5a810afed11",
+                        "vv": "582c5164881b9ede04f33f7d",
+                        "refdomain": "com",
+                        "verticalId": "57a319d6bbff37fa3eea177c",
+                        "segmentId": "57a319f70eb3e7871fa49ff3"
+                    }
+                },
+                {
+                    "_id": "5810a15817ef5b378a756d3a",
+                    "id": "57a8fdd3ff9e274639e696c7",
+                    "varId": "57a8fdd3ff9e274639e696c6",
+                    "varType": "default",
+                    "publishAt": "2017-03-29T12:06:00.776Z",
+                    "historyNames": [
+                        "jdate"
+                    ],
+                    "__v": 0,
+                    "ver": "58dba351a518236e84d50cb2",
+                    "siteId": "57a30b909cd52c6d20081b0c",
+                    "verticalId": "57a319d6bbff37fa3eea177c",
+                    "segmentId": "57a319f70eb3e7871fa49ff3",
+                    "partnerId": "57a3842e95dde91702ff5cf6",
+                    "productId": "57a8fdd3ff9e274639e696c7",
+                    "linkId": 23915,
+                    "displayName": "JDate",
+                    "name": "jdate",
+                    "logoPath": "products/uploads/photo/jdate.20161006144148.png",
+                    "varName": "default",
+                    "score": "8.5",
+                    "position": 9,
+                    "randReviewCount": 122,
+                    "scoreText": "Great",
+                    "legacyId": 10,
+                    "bottomLine": {
+                        "displayName": "High number of Jewish singles; Find your Jewish match",
+                        "productReview": false,
+                        "featureId": "57f65e395585ae8d5d0e98bc",
+                        "show": true
+                    },
+                    "bullets": [
+                        {
+                            "type": "bullet1",
+                            "productFeatureId": "54a28821636d731c3d000001",
+                            "leftDisplayName": "Overall product score:",
+                            "rightDisplayName": "",
+                            "displayName": "Overall product score: 8.5 ",
+                            "index": 1,
+                            "sortKey": "54a28821636d731c3d000001",
+                            "sortType": "byTopScore"
+                        },
+                        {
+                            "type": "bullet2",
+                            "productFeatureId": "57ece751e1af31de21b626b3",
+                            "leftDisplayName": "",
+                            "rightDisplayName": "",
+                            "displayName": " Great community tools for mingling and dating ",
+                            "index": 2
+                        },
+                        {
+                            "type": "bullet3",
+                            "productFeatureId": "57ece760e1af31de21b626ba",
+                            "leftDisplayName": "",
+                            "rightDisplayName": "",
+                            "displayName": " See how many thousands of members are online ",
+                            "index": 3
+                        },
+                        {
+                            "type": "bullet4",
+                            "productFeatureId": "57ece467e1af31de21b625b8",
+                            "leftDisplayName": "Monthly Price:",
+                            "rightDisplayName": "",
+                            "displayName": "Monthly Price: $15.99  ",
+                            "index": 4
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "productFeatureId": "54a28821636d731c3d000001",
+                            "leftDisplayName": "Overall product score:",
+                            "rightDisplayName": "",
+                            "isOverallTopScore": true,
+                            "value": "8.5",
+                            "formattedValue": "8.5",
+                            "index": 1,
+                            "sortKey": "54a28821636d731c3d000001",
+                            "sortType": "byTopScore"
+                        },
+                        {
+                            "productFeatureId": "57ece751e1af31de21b626b3",
+                            "leftDisplayName": "",
+                            "rightDisplayName": "",
+                            "inputType": "text",
+                            "value": "Great community tools for mingling and dating",
+                            "formattedValue": "Great community tools for mingling and dating",
+                            "index": 2
+                        },
+                        {
+                            "productFeatureId": "57ece760e1af31de21b626ba",
+                            "leftDisplayName": "",
+                            "rightDisplayName": "",
+                            "inputType": "text",
+                            "value": "See how many thousands of members are online",
+                            "formattedValue": "See how many thousands of members are online",
+                            "index": 3
+                        },
+                        {
+                            "productFeatureId": "57ece467e1af31de21b625b8",
+                            "leftDisplayName": "Monthly Price:",
+                            "rightDisplayName": "",
+                            "inputType": "currency",
+                            "value": {
+                                "fixedPriceValue": 15.99,
+                                "priceType": "fixed_price",
+                                "currency": "USD",
+                                "fixedPriceDiscountType": "no_discount"
+                            },
+                            "formattedValue": "$15.99 ",
+                            "newPrice": "$15.99",
+                            "index": 4
+                        }
+                    ],
+                    "ratingValArr": [
+                        1,
+                        1,
+                        1,
+                        0.5,
+                        0
+                    ],
+                    "votingValue": 122,
+                    "phoneShow": true,
+                    "phoneDisplayName": "(866)481-0668",
+                    "inputType": "currency",
+                    "showOldPrice": false,
+                    "newPrice": "$15.99",
+                    "oldPrice": "$15.99",
+                    "noDiscount": true,
+                    "specialPrice": {
+                        "_id": "59a56a27a8d2cf67d3111a07",
+                        "textAfterValue": " ",
+                        "textBeforeValue": "Monthly Price: ",
+                        "featureId": "57ece467e1af31de21b625b8",
+                        "show": true,
+                        "newPrice": "$15.99",
+                        "oldPrice": "$15.99"
+                    },
+                    "phoneNumber": {
+                        "featureId": "5991b2f35807a000015c395a",
+                        "productFeatureId": "5991b2f35807a000015c395a",
+                        "show": true,
+                        "inputType": "phone",
+                        "value": "(866)481-0668",
+                        "formattedValue": "(866)481-0668"
+                    },
+                    "sorting": [
+                        {
+                            "type": "byProductList",
+                            "key": "54a28821636d731c3d000000",
+                            "value": 9
+                        },
+                        {
+                            "type": "byTopScore",
+                            "key": "54a28821636d731c3d000001",
+                            "value": "8.5"
+                        }
+                    ],
+                    "affiliateLink": "/visit?product_id=10&url=http%3A%2F%2Fwww.jdate.com%3Futm_source%3DNaturalIntelligence%26utm_medium%3DAffiliate%26utm_campaign%3Dmindup%26prm%3D104964%26lgid%3D%5Btracking-subid%5D&cms_platform=xsite&d=localhost%3A6003&rank=9&bi=%7B%22p%22%3A10%2C%22site_id%22%3A%22263%22%2C%22curi%22%3A%22%2Fonline-dating%22%2C%22blrs%22%3A23915%2C%22plv%22%3A%225828a2c403925fe404496bef%22%2C%22sv%22%3A%22584807122a60b5a810afed11%22%2C%22vv%22%3A%22582c5164881b9ede04f33f7d%22%2C%22refdomain%22%3A%22com%22%2C%22verticalId%22%3A%2257a319d6bbff37fa3eea177c%22%2C%22segmentId%22%3A%2257a319f70eb3e7871fa49ff3%22%7D",
+                    "bi": {
+                        "p": 10,
+                        "site_id": "263",
+                        "curi": "/online-dating",
+                        "blrs": 23915,
+                        "plv": "5828a2c403925fe404496bef",
+                        "sv": "584807122a60b5a810afed11",
+                        "vv": "582c5164881b9ede04f33f7d",
+                        "refdomain": "com",
+                        "verticalId": "57a319d6bbff37fa3eea177c",
+                        "segmentId": "57a319f70eb3e7871fa49ff3"
+                    }
+                },
+                {
+                    "_id": "5810d97617ef5b378a7571a1",
+                    "id": "57a9008dc87db976021833d2",
+                    "varId": "57a9008dc87db976021833d1",
+                    "varType": "default",
+                    "publishAt": "2017-03-29T12:06:04.691Z",
+                    "historyNames": [
+                        "seniorpeoplemeet"
+                    ],
+                    "__v": 0,
+                    "ver": "58dba355a518236e84d50cbe",
+                    "siteId": "57a30b909cd52c6d20081b0c",
+                    "verticalId": "57a319d6bbff37fa3eea177c",
+                    "segmentId": "57a319f70eb3e7871fa49ff3",
+                    "partnerId": "57a8f7bac87db97602183384",
+                    "productId": "57a9008dc87db976021833d2",
+                    "linkId": 3168,
+                    "displayName": "SeniorPeopleMeet",
+                    "name": "seniorpeoplemeet",
+                    "logoPath": "products/uploads/photo/senior_people_meet.20161006144634.png",
+                    "varName": "default",
+                    "score": "8.4",
+                    "position": 10,
+                    "randReviewCount": 96,
+                    "scoreText": "Very Good",
+                    "legacyId": 5,
+                    "socialProof": {
+                        "show": true,
+                        "_clickouts": 0,
+                        "clickouts": 2011,
+                        "textBeforeValue": "before",
+                        "textAfterValue": "after"
+                    },
+                    "bottomLine": {
+                        "displayName": "Meet other 50+ singles nearby; Meet your mature match today",
+                        "productReview": false,
+                        "featureId": "57f65e395585ae8d5d0e98bc",
+                        "show": true
+                    },
+                    "bullets": [
+                        {
+                            "type": "bullet1",
+                            "productFeatureId": "54a28821636d731c3d000001",
+                            "leftDisplayName": "Overall product score:",
+                            "rightDisplayName": "",
+                            "displayName": "Overall product score: 8.4 ",
+                            "index": 1,
+                            "sortKey": "54a28821636d731c3d000001",
+                            "sortType": "byTopScore"
+                        },
+                        {
+                            "type": "bullet2",
+                            "productFeatureId": "57ece751e1af31de21b626b3",
+                            "leftDisplayName": "",
+                            "rightDisplayName": "",
+                            "displayName": " Play 'I'm Interested' & see who's online now ",
+                            "index": 2
+                        },
+                        {
+                            "type": "bullet3",
+                            "productFeatureId": "57ece760e1af31de21b626ba",
+                            "leftDisplayName": "",
+                            "rightDisplayName": "",
+                            "displayName": " Keyword Search helps narrow down your matches ",
+                            "index": 3
+                        },
+                        {
+                            "type": "bullet4",
+                            "productFeatureId": "57ece467e1af31de21b625b8",
+                            "leftDisplayName": "Monthly Price:",
+                            "rightDisplayName": "",
+                            "index": 4
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "productFeatureId": "54a28821636d731c3d000001",
+                            "leftDisplayName": "Overall product score:",
+                            "rightDisplayName": "",
+                            "isOverallTopScore": true,
+                            "value": "8.4",
+                            "formattedValue": "8.4",
+                            "index": 1,
+                            "sortKey": "54a28821636d731c3d000001",
+                            "sortType": "byTopScore"
+                        },
+                        {
+                            "productFeatureId": "57ece751e1af31de21b626b3",
+                            "leftDisplayName": "",
+                            "rightDisplayName": "",
+                            "inputType": "text",
+                            "value": "Play 'I'm Interested' & see who's online now",
+                            "formattedValue": "Play 'I'm Interested' & see who's online now",
+                            "index": 2
+                        },
+                        {
+                            "productFeatureId": "57ece760e1af31de21b626ba",
+                            "leftDisplayName": "",
+                            "rightDisplayName": "",
+                            "inputType": "text",
+                            "value": "Keyword Search helps narrow down your matches",
+                            "formattedValue": "Keyword Search helps narrow down your matches",
+                            "index": 3
+                        },
+                        {
+                            "productFeatureId": "57ece467e1af31de21b625b8",
+                            "leftDisplayName": "Monthly Price:",
+                            "rightDisplayName": "",
+                            "index": 4
+                        }
+                    ],
+                    "ratingValArr": [
+                        1,
+                        1,
+                        1,
+                        0.5,
+                        0
+                    ],
+                    "votingValue": 96,
+                    "phoneShow": true,
+                    "sorting": [
+                        {
+                            "type": "byProductList",
+                            "key": "54a28821636d731c3d000000",
+                            "value": 10
+                        },
+                        {
+                            "type": "byTopScore",
+                            "key": "54a28821636d731c3d000001",
+                            "value": "8.4"
+                        }
+                    ],
+                    "affiliateLink": "/visit?product_id=5&url=http%3A%2F%2Fwww.seniorpeoplemeet.com%2Fonline-dating%2Fpromo.cfm%3Fsid%3D291%26afid%3D19_%5Btracking-subid%5D&cms_platform=xsite&d=localhost%3A6003&rank=10&bi=%7B%22p%22%3A5%2C%22site_id%22%3A%22263%22%2C%22curi%22%3A%22%2Fonline-dating%22%2C%22blrs%22%3A3168%2C%22plv%22%3A%225828a2c403925fe404496bef%22%2C%22sv%22%3A%22584807122a60b5a810afed11%22%2C%22vv%22%3A%22582c5164881b9ede04f33f7d%22%2C%22refdomain%22%3A%22com%22%2C%22verticalId%22%3A%2257a319d6bbff37fa3eea177c%22%2C%22segmentId%22%3A%2257a319f70eb3e7871fa49ff3%22%7D",
+                    "bi": {
+                        "p": 5,
+                        "site_id": "263",
+                        "curi": "/online-dating",
+                        "blrs": 3168,
+                        "plv": "5828a2c403925fe404496bef",
+                        "sv": "584807122a60b5a810afed11",
+                        "vv": "582c5164881b9ede04f33f7d",
+                        "refdomain": "com",
+                        "verticalId": "57a319d6bbff37fa3eea177c",
+                        "segmentId": "57a319f70eb3e7871fa49ff3"
+                    }
+                }
+            ],
+            "seo": {
+                "title": "Best Online Dating Sites of 2016",
+                "description": "If you’re looking for love, you’ve come to the right place! Compare the best online dating sites of 2016 right here, right now",
+                "follow": false,
+                "canonical": "self",
+                "index": false
+            },
+            "__v": 0,
+            "ver": "59a56a9da8d2cf67d3111a65",
+            "siteId": "57a30b909cd52c6d20081b0c",
+            "verticalId": "57a319d6bbff37fa3eea177c",
+            "segmentId": "57a319f70eb3e7871fa49ff3",
+            "topImageUrl": "charts/uploads/photo/Dating---Main.20161108093834.jpg",
+            "topImageAlt": "The Best Online Dating Sites",
+            "topImageTitle": "Couple hugging",
+            "title": "Best Online Dating sites",
+            "numberOfProducts": 10,
+            "lessMoreAfterOfProducts": 10,
+            "showInMobileViewBullet1": false,
+            "showInMobileViewBullet2": false,
+            "showInMobileViewBullet3": false,
+            "showInMobileViewBullet4": true,
+            "textOnCTA": "Visit Site",
+            "textBelowChart": "<h2>Why Should I Try Online Dating?</h2><p>Well, to put it frankly, why not?&nbsp;</p><p>Online dating opens a world of possibilities. Whether you&rsquo;re the singleton tired of the neverending sea of &ldquo;losers&rdquo; at the bar or you&rsquo;re the single workerbee basically living in the office, online dating has something to offer.&nbsp;</p><p>Signing up for a dating site lets you explore all different types of people at your convenience. It also lets you explore your wants and needs! Do you really want the bad boy with the Harley just to upset your parents, or do you actually want a guy that matches your interests, desires, and life goals? That&rsquo;s the beauty of dating online: You decide.&nbsp;</p><p>Also, as a side note here, you&rsquo;re not alone. Millions of people are not only dating online as we speak, but getting married to someone they met online! So why not give it a shot? What do you have to lose?&nbsp;</p><h2>How Do I Find the Best Dating Sites for MY needs?</h2><p>Online dating sites differ by subscription cost and clientele. Some are free, some are paid, and some are both. Some sites are for Seniors, others are for Lesbians, and some are for Gays. Some are for all. Just stipulate your preferences in the sign up phase.&nbsp;</p><p>If you&rsquo;re testing the waters, you should try a free site. That way you can decide if your online love life is worth investing in or not. And you can play around and see what types of features and options call out your name.&nbsp;</p><p>Whether you&rsquo;re looking for something casual or something serious, there is a dating site (or 10) that suits your taste.&nbsp;</p><h2>Do Dating Sites Actually Work?</h2><p>What a great question. Dating sites work the way you want them to! If you&rsquo;re serious about dating, you can adjust your preferences accordingly and date other singles who are also looking for something serious. On the other hand, if you&rsquo;re looking for something casual, you can designate that and find others looking for the same as well.&nbsp;</p><p>Regardless of what you&rsquo;re looking for, we suggest the following tips for your profile creation:&nbsp;</p><h3>Let your beauty shine!&nbsp;</h3><p>Use a nice photo to show people who you are. A candid photo of doing something you love is generally the most flattering. Avoid the shirtless bathroom pics or huge group shots.&nbsp;</p><h3>Reflect who you are in your profile&nbsp;</h3><p>Your profile is an online reflection of YOU. So do your best to reflect who you are in that profile word count. Give enough info to tell others who you are, but don&rsquo;t overshare. Be yourself and definitely be honest.&nbsp;</p><h3>Patience is a virtue&nbsp;</h3><p>It&rsquo;s not too common to land the date of your dreams in your first two minutes online. It might take some time. Online dating isn&rsquo;t a magic love potion, it just opens your options up to meeting people you would otherwise not meet in real life. And just like in real life, it might take some time to find The One. So don&rsquo;t lose hope and be patient.&nbsp;</p><p>Want to do a little more research on your online dating site options? Jump over to our <a href=\"/online-dating/reviews\" rel=\"follow\">Top 10 dating sites reviews</a> for a wealth of information on the internet&rsquo;s top dating sites.</p>",
+            "varName": "socialProof + callbox Cloned + specialPrice Cloned Cloned Cloned Cloned2 Cloned Cloned",
+            "subTitle": "sub title",
+            "attributes": [
+                {
+                    "leftDisplayName": "Overall product score:",
+                    "rightDisplayName": "",
+                    "name": "Overall product score",
+                    "isOverallTopScore": true,
+                    "isOverallExpertScore": false,
+                    "featureId": "54a28821636d731c3d000001",
+                    "_id": "59a556bba8d2cf67d31119b9"
+                },
+                {
+                    "leftDisplayName": "",
+                    "name": "Selling point 2",
+                    "isOverallTopScore": false,
+                    "isOverallExpertScore": false,
+                    "featureId": "57ece751e1af31de21b626b3",
+                    "_id": "59a556bba8d2cf67d31119b8"
+                },
+                {
+                    "leftDisplayName": "",
+                    "name": "Selling point 3",
+                    "isOverallTopScore": false,
+                    "isOverallExpertScore": false,
+                    "featureId": "57ece760e1af31de21b626ba",
+                    "_id": "59a556bba8d2cf67d31119b7"
+                },
+                {
+                    "leftDisplayName": "Monthly Price:",
+                    "name": "Monthly Price - use this",
+                    "isOverallTopScore": false,
+                    "isOverallExpertScore": false,
+                    "featureId": "57ece467e1af31de21b625b8",
+                    "_id": "59a556bba8d2cf67d31119b6"
+                }
+            ],
+            "socialProof": {
+                "positions": [
+                    0,
+                    3,
+                    6,
+                    9
+                ],
+                "_id": "59904443d7c24200016e5cc6",
+                "show": true,
+                "textBeforeValue": "before",
+                "textAfterValue": "after",
+                "threshold": 2000
+            },
+            "specialPrice": {
+                "_id": "59a56a27a8d2cf67d3111a07",
+                "textAfterValue": " ",
+                "textBeforeValue": "Monthly Price: ",
+                "featureId": "57ece467e1af31de21b625b8",
+                "show": true,
+                "newPrice": "$15.99",
+                "oldPrice": "$15.99"
+            },
+            "entityType": "chart",
+            "productList": {
+                "_id": "5810a12b17ef5b378a756d0a",
+                "id": "57d7c767c9db8f9344672b69",
+                "varId": "57d7c767c9db8f9344672b68",
+                "varType": "default",
+                "publishAt": "2017-03-08T07:53:46.235Z",
+                "products": [
+                    {
+                        "productId": "57a901de957296596183777d",
+                        "hide": false,
+                        "order": 1,
+                        "_id": "57dff80c406517cc031f8172"
+                    },
+                    {
+                        "productId": "57a8ff36ff9e274639e696e6",
+                        "hide": false,
+                        "order": 2,
+                        "_id": "57dff7ef406517cc031f8158"
+                    },
+                    {
+                        "productId": "57a8ff98957296596183775b",
+                        "hide": false,
+                        "order": 3,
+                        "_id": "57dff7f5406517cc031f815c"
+                    },
+                    {
+                        "productId": "57a8fd5dff9e274639e696b9",
+                        "hide": false,
+                        "order": 4,
+                        "_id": "57dff7d6406517cc031f8150"
+                    },
+                    {
+                        "productId": "57a8fc21ff9e274639e696ab",
+                        "hide": false,
+                        "order": 5,
+                        "_id": "57dff7dc7994268056054393"
+                    },
+                    {
+                        "productId": "57a8fac89572965961837732",
+                        "hide": false,
+                        "order": 6,
+                        "_id": "57dff7b7ec0aae346b17c09e"
+                    },
+                    {
+                        "productId": "57a900119572965961837765",
+                        "hide": false,
+                        "order": 7,
+                        "_id": "57dff80779942680560543a6"
+                    },
+                    {
+                        "productId": "57a90120c87db976021833e0",
+                        "hide": false,
+                        "order": 8,
+                        "_id": "57dff81379942680560543ae"
+                    },
+                    {
+                        "productId": "57a8fdd3ff9e274639e696c7",
+                        "hide": false,
+                        "order": 9,
+                        "_id": "57d7c767c9db8f9344672b6a"
+                    },
+                    {
+                        "productId": "57a9008dc87db976021833d2",
+                        "hide": true,
+                        "order": 10,
+                        "_id": "57dff80d79942680560543aa"
+                    },
+                    {
+                        "productId": "57a8fb75ff9e274639e6969d",
+                        "hide": true,
+                        "order": 11,
+                        "_id": "57dff7d5799426805605438f"
+                    },
+                    {
+                        "productId": "57a8fe24ff9e274639e696d5",
+                        "hide": true,
+                        "order": 12,
+                        "_id": "57dff7e7406517cc031f8154"
+                    }
+                ],
+                "__v": 0,
+                "ver": "5828a2c403925fe404496bef",
+                "segmentId": "57a319f70eb3e7871fa49ff3",
+                "verticalId": "57a319d6bbff37fa3eea177c",
+                "siteId": "57a30b909cd52c6d20081b0c",
+                "varName": "default"
+            },
+            "phoneShow": true,
+            "phone": {
+                "type": "phoneNumber",
+                "productFeatureId": "5991b2f35807a000015c395a",
+                "displayName": null
+            },
+            "haveCurrency": true,
+            "sortingFeatures": [
+                {
+                    "type": "byProductList",
+                    "productFeatureId": "54a28821636d731c3d000000",
+                    "displayName": "Our Top Picks",
+                    "position": 0,
+                    "featureType": "byProductList"
+                },
+                {
+                    "type": "byTopScore",
+                    "productFeatureId": "54a28821636d731c3d000001",
+                    "displayName": "Top10 Score",
+                    "position": 1,
+                    "featureType": "byTopScore"
+                }
+            ],
+            "rapido": {
+                "host": "localhost:6003",
+                "path": "/online-dating",
+                "qs": {
+                    "1234567898765432": ""
+                }
+            }
+        },
+        "promotions":[{
+            "_id": "599bf1d2086b647c8214db9b",
+            "id": "599bf1cb9ffdf81ed1c2332b",
+            "entityType": "promotion",
+            "varType": "default",
+            "sharedHistoryNames": [],
+            "historyNames": [],
+            "publishAt": "2017-08-22T08:57:03.971Z",
+            "ver": "599bf1de9ffdf81ed1c23338",
+            "destinationProps": {
+                "siteId": "57a30b909cd52c6d20081b0c",
+                "verticalId": "57a319d6bbff37fa3eea177c",
+                "segmentId": "57a6edbc037eadc66e6d8fa3",
+                "productId": "57fa51c25585ae8d5d0e9a8e",
+                "linkId": "58ca590c5b04b16df81b1904",
+                "baseLinkId": 3364,
+                "url": "/visit?product_id=11&url=http%3A%2F%2Faffiliate.zantracker.com%2Frd%2Fr.php%3Fsid%3D208%26pub%3D500138%26c1%3DNI_WX*000000_000000%26c3%3DG3%26c2%3D%5Btracking-subid%5D&cms_platform=xsite&d=localhost%3A6003&rank=1&bi=%7B%22p%22%3A11%2C%22site_id%22%3A%22263%22%2C%22curi%22%3A%22%2Fcredit-reports%22%2C%22blrs%22%3A3364%2C%22plv%22%3Anull%2C%22sv%22%3A%2258b2f84fc5ddec3cdd18cc77%22%2C%22vv%22%3A%2258dba3492ff75708d077df21%22%2C%22refdomain%22%3A%22com%22%2C%22verticalId%22%3A%2258a2fcd81ce3044b6963adca%22%2C%22segmentId%22%3A%2258a2fd7f1ce3044b6963add5%22%7D",
+                "baseProductId": 11
+            },
+            "varName": "test",
+            "name": "test",
+            "description": "test",
+            "type": "banner",
+            "viewType": "image",
+            "imageUrl": "https://umbrella.data.naturalint.com/development/promotions/uploads/photo/display_11_16.jpg",
+            "videoUrl": null,
+            "altTitle": "test alt",
+            "destinationType": "specific_product",
+            "varId": "599bf1cb9ffdf81ed1c2332a",
+            "__v": 0
+        }, {
+            "_id": "599bf261086b647c8214dba1",
+            "id": "599bf25f9ffdf81ed1c2333e",
+            "varType": "default",
+            "sharedHistoryNames": [],
+            "historyNames": [],
+            "publishAt": "2017-08-22T08:59:13.092Z",
+            "destinationType": "external_page",
+            "altTitle": "dsgaadsf",
+            "videoUrl": "https://www.youtube.com/embed/YOVIiWUPJLc",
+            "imageUrl": null,
+            "viewType": "video",
+            "type": "banner",
+            "description": "sdafdsa",
+            "name": "sdafasdf",
+            "varName": "another",
+            "destinationProps": {
+                "url": "//google.com"
+            },
+            "ver": "599bf25f9ffdf81ed1c2333f",
+            "varId": "599bf25f9ffdf81ed1c2333d",
+            "__v": 0
+        }],
+        "relatedArticles": [{
+            "_id": "58b586effb8e75bf5a547516",
+            "id": "58b586f6f38efc4f52c6c14f",
+            "varType": "default",
+            "seo": {
+                "title": "Navigate the Ins and Outs of Your Credit Report",
+                "description": "Your credit report has the information banks use to lend you money, so it’s important to have and know how to use it, or risk getting a bad deal.",
+                "follow": false,
+                "canonical": "self",
+                "index": false
+            },
+            "tagId": [],
+            "publishAt": "2017-06-13T06:43:17.312Z",
+            "varName": "Content Changes to Fix Formatting",
+            "historyNames": ["the-credit-report-handbook"],
+            "thumb": {
+                "url": "articles/uploads/photo/What-you-need-to-know-about-credit-reports-3.20170305140517.jpg",
+                "alt": "Credit Report Handbook",
+                "title": "Credit Report Handbook"
+            },
+            "body": "<h2>The Skim:&nbsp;</h2><p>Credit reports are home to your credit score, often referred to as your FICO score (historically named after the company Fair Isaac who issued these scores). A credit score is the numeric representation of your financial behavior as determined by the three major credit bureaus:&nbsp;</p><ul><li>Equifax&nbsp;</li><li>Experian&nbsp;</li><li>TransUnion </li></ul><p>When determining credit score, elements commonly taken into account are credit card debt, mortgage, car loans, salary and overall income versus expenditure, as well as repayment behaviors. Credit cards, like loans taken and mortgages, play a major role in determining credit scores. Loan amounts, monthly repayments as well as the ability to pay loans back on time, weigh heavily on your credit score. Failures such as bankruptcy, missed child support payments, and past applications for credit also negatively affect a credit score.</p><h2>The Credit Report Picture: Not Just for Loans &amp; Banks</h2><p>Even if you&rsquo;re not heading to the bank, obtaining a credit report allows you the advantage of understanding your credit worthiness. Keep in mind that just because you are not applying for a loan at this time, does not mean you will not want it down the line.</p><p>&ldquo;People with little or no credit history, or who lack a credit score, have fewer opportunities to borrow money in order to build a future, and any credit that is available usually costs more,&rdquo; explains Richard Cordray, Director of the Consumer Financial Protection Bureau.</p><p>Another major advantage of knowing your credit standing has to do with the extensive background information employers these days are conducting on potential employees. These will oftentimes include a look at workers&rsquo; credit scores.</p><p>And then there&rsquo;s the issue of Identity Theft and the plethora of fraud possibilities surrounding one&rsquo;s financial identity. Staying on top of your credit report, carefully tracking all items on the report and disputing foreign or suspect activity is the best way to safeguard against ID theft.</p><h2>Obtaining Your Credit Report</h2><p>&ldquo;It all of a sudden clicked for me. Why I needed this credit score business. And that&rsquo;s when I became willing to get my report and actually took the time to read it through&rdquo; recalls Seth Lonigham, a mechanic from Sterling, Virginia, in his harrowing tale of being denied work multiple times due to a credit history he was not even aware was recorded.&nbsp;</p><p>Before being judged on your creditworthiness by potential employees and will-be lenders, it&rsquo;s only fair you should have all the information at your disposal to determine for yourself how well you are faring. This is how the Data Protection Act of 1988 was born, allowing consumers to obtain their own credit reports. And with the enforcement of this act, the internet floodgates were opened to companies offering cheap, and even free, credit reports.</p><p>The freebie offer: Are these free credit reports a good idea? The truth is that it depends on what you&rsquo;re looking for. Many of the free credit report services out there offer a truly free report, then introduce their paid subscription service. While you will get the report at no cost, often enough it comes without the actual credit score attached. This may be enough to get a head start on where to improve, if necessary, but typically you will soon realize knowing your credit score itself is a necessity.</p><p>Customer service for these free report providers is also most often lacking or nonexistent. Also, be very careful not to download files or input personal information until you are sure that the service is legitimate. Even the most responsible and legitimate services need lots of personal information, ironically making fake reporting sites a common way for criminals to steal your identity.</p><p>Pros:&nbsp;</p><ul><li>Access free of charge</li><li>Enough actionable information to get started</li><li>An avenue to test the service before purchase</li></ul><p>Cons:&nbsp;</p><ul><li>Unsecure, puts your personal information at risk</li><li>Does not include actual credit scores&nbsp;</li></ul><p>The subscription offer: The other option is, of course, opting to pay a small monthly fee for a reputable credit reporting service, many of which cost as little as &pound;2. And should you decide to go the subscription route, you&rsquo;ll notice very quickly that competition between credit reports providers is touch, causing most companies to run ongoing promotions for their services. This gives you the ability to test several full-tier options without the need to pay immediately.</p><p>The better services provide more than just the basis of your score, they offer updates on potentially fraudulent activity, regular alerts and notifications, and a mostly reliable customer service.</p><p>Pros:</p><ul><li>Value-added features for full range protection</li><li>Infinite ability to access report</li><li>Assistance in disputing questionable entries </li></ul><p>Cons:</p><ul><li>Monthly/annual subscription fee</li></ul><h2>The Nitty Gritty: Reading Your Credit Report</h2><p>It&rsquo;s worth it to be able to scrutinize a credit report as a banker would. Lenders use every piece of data at their disposal to determine your creditworthiness, so intimate knowledge of the report&rsquo;s information and what it means could impact your ability to access credit. &nbsp;</p><p>A typical credit report contains four sections:&nbsp;</p><p>Section 1 &ndash; Personal Information: Geographic, demographic and social details like name, national ID number, and employment.&nbsp;</p><p>Section 2 &ndash; Public Information: Information available from state courts, collections agencies, bankruptcies, foreclosures and legal complications like lawsuits and judgements.&nbsp;</p><p>Section 3 &ndash; Current Lines of Credit: Your current credit accounts with any lender. Could include car, mortgage, personal loans and more.&nbsp;</p><p>Section 4 &ndash; Credit Enquiries: Identifies each time you applied for any kind of loan or other line of credit in the past.&nbsp;</p><p>Be advised that often times a close reading of the report will disclose unwanted gaps between your details as they appear on public records and your details as they are in reality. Extra vowels in your name to wrong national security numbers are all within the realm of possibility. Such discrepancies can easily be cleared up by calling the reporting company and requesting changes to erroneous items.&nbsp;</p><p>Pay special attention your credit history, including past credit, when it was or wasn&rsquo;t paid off and relevant dates and amounts. If there are instances of credit requests that you do not familiar with, this may be the time to be concerned about Identity theft. Getting in touch with the reporting company and voicing your concern can stop fraudulent activity on your name and repair whatever damage had been done.</p><h2>Walking the Line: Staying on Top of Your Credit</h2><p>How much is too much when it comes to checking your credit? Myth has it that checking your credit score penalizes you in the credit enquiries section. Myths aside, excessive checking will not damage your credit. Putting in a request for your score is considered a soft enquiry and therefore will not affect your credit ranking in any way.&nbsp;</p><p>Regardless of personal beliefs about the accuracy in which facts and figures can &ldquo;say something about us&rdquo;, credit reports are how lenders determine credit worthiness and, often times, they are way for employees to sniff out information about us.&nbsp;</p><p>There has been talk in recent years about the Federal Government attempting new ways to determine credit scores, looking at expenses such as rent and cell phone payments as markers of credit standing. If the proposal for &ldquo;alternative&rdquo; data is approved, we&rsquo;ll be looking at an entirely different set of eyes looking loan seekers over.&nbsp;</p><p>Until this day comes though, credit reports remain the holy grain upon which credit worthiness is determined.</p><p><br></p><p><!--StartFragment--><!--StartFragment-->What if you could take the first step towards improving your credit score as early as today? Bet you wouldn&#39;t say no to that. Browse our list of the&nbsp;UK&#39;s top credit reference agencies&nbsp;&nbsp;and be on your way to the best finance sanity check you can get.&nbsp;</p>",
+            "brief": "Credit reports are home to your credit score, often referred to as your FICO score (historically named after the company Fair Isaac who issued these scores). A credit score is the numeric representation of your financial behavior as determined by the three major credit bureaus:",
+            "updateDate": "2017-06-13T06:43:05.595Z",
+            "createDate": "2017-06-13T06:41:33.927Z",
+            "name": "the-credit-report-handbook",
+            "title": "The Credit Report Handbook",
+            "authorId": "58ad91f92cdf015b9ceb9f15",
+            "segmentId": "58a2fd7f1ce3044b6963add5",
+            "verticalId": "58a2fcd81ce3044b6963adca",
+            "siteId": "57a30b909cd52c6d20081b0c",
+            "ver": "593f8979dd607000013a2704",
+            "varId": "593f891d26dde7000177add6",
+            "__v": 0,
+            "sharedHistoryNames": ["the-credit-report-handbook"],
+            "author": {
+                "_id": "58ad91fffb8e75bf5a5472bd",
+                "id": "58ad91f92cdf015b9ceb9f15",
+                "varType": "default",
+                "verticalId": ["58a2fcd81ce3044b6963adca"],
+                "publishAt": "2017-06-15T11:29:14.572Z",
+                "ver": "59426f864427b900013446e5",
+                "siteId": "57a30b909cd52c6d20081b0c",
+                "first_name": "Jonathan",
+                "last_name": "Miller",
+                "email": null,
+                "phone": null,
+                "address": null,
+                "birthday": "2017-02-22T00:00:00.000Z",
+                "gender": null,
+                "title": "A no-nonsense financial adviser & loans mentor for consumers.",
+                "bio": "Jonathan Miller holds a degree in Applied Economics and Management from Cornell University. Drawing on his professional Fin Tech experience, Jonathan uses his knowledge to better serve consumer finance customers. Jonathan currently acts as an economics consultant for brokerage houses to help educate clients and make complex financial concepts more accessible to a wider audience.",
+                "quote": "lorem ipsum",
+                "image": {
+                    "url": "authors/uploads/photo/JM_headshot.20170222132809.JPG",
+                    "alt": "Jonathan Miller Top10 Finance Expert",
+                    "title": "Jonathan Miller Top10 Finance Expert"
+                },
+                "facebook": null,
+                "twitter": null,
+                "linkedIn": null,
+                "blog_url": null,
+                "varName": "default",
+                "varId": "58ad91f92cdf015b9ceb9f14",
+                "__v": 0
+            }
+        }, {
+            "_id": "59354be74d13f11d2a9ff89a",
+            "id": "5922e2efdd607000013a26da",
+            "varType": "default",
+            "sharedHistoryNames": ["credit-score-demystified-finally-learn-what-it-all-means"],
+            "seo": {
+                "follow": false,
+                "index": true,
+                "canonical": "self",
+                "description": "Maintaining good credit can help ensure that a person will be seen as a risk worth taking by lenders and financial institutions. Knowing our credit score and understanding how it works can help us take the proper steps to improve our standing in the eyes of financial and other bodies.",
+                "title": "Credit Score Demystified: Finally Learn What it All Means | Top10.com"
+            },
+            "tagId": [],
+            "publishAt": "2017-06-11T08:45:46.893Z",
+            "ver": "593d033026dde7000177adcf",
+            "varName": "Content Changes",
+            "siteId": "57a30b909cd52c6d20081b0c",
+            "verticalId": "58a2fcd81ce3044b6963adca",
+            "segmentId": "58a2fd7f1ce3044b6963add5",
+            "authorId": "58ad91f92cdf015b9ceb9f15",
+            "title": "Credit Score Demystified: Finally Learn What it All Means",
+            "name": "credit-score-demystified-finally-learn-what-it-all-means",
+            "createDate": "2017-06-11T08:45:36.604Z",
+            "updateDate": "2017-06-11T08:45:36.604Z",
+            "brief": "Maintaining good credit can help ensure that a person will be seen as a risk worth taking by lenders and financial institutions. Knowing our credit score and understanding how it works can help us take the proper steps to improve our standing in the eyes of financial and other bodies.",
+            "body": "<p>A person&#39;s credit score can go a long way in determining their financial future. It is one of the main tools used by lenders to decide if they will extend someone credit or approve their loan.</p><p>In fact, the credit report, which is the basis of the credit score, will not only be looked at by financial institutions and lenders, it may be used to measure someone&#39;s reliability and trustworthiness by prospective employers or landlords.</p><p dir=\"ltr\"></p><figure><img src=\"https://umbrella.data.naturalint.com/production/rich-text/uploads/photo/what-is-credit-score-min.20170530095921.jpg\" data-title=\"What is credit score\" data-alt=\"What is credit score\" data-caption=\"\" class=\"fr-fic fr-dib\" alt=\"What is credit score\" title=\"What is credit score\"><figcaption>&nbsp;</figcaption></figure><br><p></p><p dir=\"ltr\"><strong>What is Your Credit Score?</strong></p><p dir=\"ltr\">Put simply, credit score is an attempt to represent a person&rsquo;s creditworthiness in the form of a number. It makes it easy for potential creditors to quickly get an idea of someone&rsquo;s situation. Those who have a high credit score have a history of using credit sensibly, which will greatly increase the likelihood of their application being approved.</p><p>It would be unusual for a creditor to approve the application solely on the basis of a credit score, but it is certainly an important factor. Those who have a low credit score, will find it difficult to borrow money.&nbsp;</p><p><br></p><p><strong>How is Your Credit Score Determined?</strong></p><p dir=\"ltr\">Credit score calculation involves giving a numerical value to different factors that demonstrate a person&rsquo;s worthiness as a creditor. There are a number of ways to do this, so it is important to understand that we have more than one credit score.</p><p>Companies like Equifax and Experian usually use Vantage3 credit scoring, which involves six variables:</p><p><br></p><ul><li dir=\"ltr\">Available credit&nbsp;</li><li dir=\"ltr\">Depth of credit (types of credit and credit history)&nbsp;</li><li dir=\"ltr\">Payment history,&nbsp;</li><li dir=\"ltr\">Utilization of credit,&nbsp;</li><li dir=\"ltr\">Recent credit&nbsp;</li><li dir=\"ltr\">Credit balances&nbsp;</li></ul><p><br></p><p>The other popular credit score method is known as FICO, which uses five variables:&nbsp;</p><p><br></p><ul><li dir=\"ltr\">Length of credit history&nbsp;</li><li dir=\"ltr\">Types of credit&nbsp;</li><li dir=\"ltr\">Amount of debt&nbsp;</li><li dir=\"ltr\">Any new credit</li><li dir=\"ltr\">Payment history</li></ul><p dir=\"ltr\"><strong><br></strong></p><p dir=\"ltr\"><strong>Benefit of Knowing Your Credit Score</strong></p><p dir=\"ltr\">It could be argued that knowing one&rsquo;s credit score isn&rsquo;t going to make much of a difference in their ability to get credit, but this is not entirely accurate. Knowing this number means having a much better idea about how any loan application is going to be viewed. Most importantly, it also lets someone know if they need to take action to improve their creditworthiness. It can come as a huge disappointment, and it can also be embarrassing, to be refused a loan or line of credit. Being aware of your credit score will decrease the likelihood of this happening.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><strong>Why You Need to Know How Your Credit Score is Calculated</strong></p><p dir=\"ltr\">There are a number of myths and misconceptions about credit scores, and this misinformation spreads because people don&rsquo;t understand how this number is calculated. For example, it may seem reasonable to assume that getting rid of a credit card, or reducing credit limit, will improve credit score, but understanding how this number is arrived at brings the realization that such actions are more likely to make things worse (this is because it is going to lower credit utilization score).</p><p>Seeing how credit score is calculated teaches us that the best way to increase creditworthiness is to use credit sensibly. Some people mistakenly believe that using cash only will give them a high credit score, however, this is not how it works at all. Those who know how credit score is calculated also notice that neither the FICO score nor Vantage3 score use a person&rsquo;s bank balance or other assets as a variable &ndash; this means that saving a lot of money does not increase creditworthiness either.</p><p dir=\"ltr\">A credit report not only provides knowledge about credit score, but also includes other factors that impact our ability to borrow money. This type of report provides people with the information they need to face lenders with confidence. It gives us a much better idea of how these people are going to view our applications.</p><p><br></p><p dir=\"ltr\"><strong>Learning How to Read Your Credit Report</strong></p><p><br></p><p dir=\"ltr\">US citizens are entitled to a free credit report from each of the three credit reporting agencies (Transunion, Experian and Equifax) once every 12 months through AnnualCreditReport.com. The free annual credit report does not include credit score. Credit score must be obtained for a fee from credit reporting agencies who will also often provide information on how the score can be improved.</p><p>Credit reports include sections on personal details, a credit summary, account history, public history - which includes bankruptcies, court judgments and tax liens - and a section on credit inquiries, which shows a list of the bodies that have previously accessed the credit report, such as creditors, mortgage brokers, employers and businesses.</p><p><br></p><p>The US government advises citizens to check their credit report regularly in order to ensure that their information is accurate and that no fraudulent accounts have been opened in their names. Those who find false information on their report are advised to send a letter to the credit reporting agency in question and the financial institution that provided the erroneous information.</p><p><br></p><p dir=\"ltr\"><strong>How to Maintain a Good Credit Score</strong></p><p><br></p><p dir=\"ltr\">One of the most important things to keep in mind for those trying to maintain a good credit score is that it is not based on assets or savings. Credit score only indicates how well someone manages their credit. If you have no history of credit, you have no evidence that you can manage this type of debt.</p><p><br></p><p dir=\"ltr\">There are some steps that can be taken to help maintain a good credit score:</p><p><br></p><ul><li dir=\"ltr\">Be careful about getting rid of credit cards as this reduces credit utilization score</li><li dir=\"ltr\">Try to use less than 30 percent of your overall available credit</li><li dir=\"ltr\">Make sure to make all your repayments on time for at least the minimum amount &ndash; automatic payments can be a good option</li><li dir=\"ltr\">Be careful about applying for new lines of credit too frequently because new credit can reduce your overall score</li><li dir=\"ltr\">Never go over your limit on any of your cards</li></ul><p><br></p><p>Maintaining good credit can help ensure that a person will be seen as a risk worth taking by lenders and financial institutions. Knowing our credit score and understanding how it works can help us take the proper steps to improve our standing in the eyes of financial and other bodies.&nbsp;</p><p><br></p>",
+            "thumb": {
+                "url": "articles/uploads/photo/what-is-credit-score-min.20170522130601.jpg",
+                "alt": "What is Credit Score",
+                "title": "What is Credit Score"
+            },
+            "historyNames": ["credit-score-demystified-finally-learn-what-it-all-means"],
+            "varId": "593d033026dde7000177adcd",
+            "__v": 0,
+            "author": {
+                "_id": "58ad91fffb8e75bf5a5472bd",
+                "id": "58ad91f92cdf015b9ceb9f15",
+                "varType": "default",
+                "verticalId": ["58a2fcd81ce3044b6963adca"],
+                "publishAt": "2017-06-15T11:29:14.572Z",
+                "ver": "59426f864427b900013446e5",
+                "siteId": "57a30b909cd52c6d20081b0c",
+                "first_name": "Jonathan",
+                "last_name": "Miller",
+                "email": null,
+                "phone": null,
+                "address": null,
+                "birthday": "2017-02-22T00:00:00.000Z",
+                "gender": null,
+                "title": "A no-nonsense financial adviser & loans mentor for consumers.",
+                "bio": "Jonathan Miller holds a degree in Applied Economics and Management from Cornell University. Drawing on his professional Fin Tech experience, Jonathan uses his knowledge to better serve consumer finance customers. Jonathan currently acts as an economics consultant for brokerage houses to help educate clients and make complex financial concepts more accessible to a wider audience.",
+                "quote": "lorem ipsum",
+                "image": {
+                    "url": "authors/uploads/photo/JM_headshot.20170222132809.JPG",
+                    "alt": "Jonathan Miller Top10 Finance Expert",
+                    "title": "Jonathan Miller Top10 Finance Expert"
+                },
+                "facebook": null,
+                "twitter": null,
+                "linkedIn": null,
+                "blog_url": null,
+                "varName": "default",
+                "varId": "58ad91f92cdf015b9ceb9f14",
+                "__v": 0
+            }
+        }, {
+            "_id": "59354c0b4d13f11d2a9ff89e",
+            "id": "5922da0add607000013a26cf",
+            "varType": "default",
+            "sharedHistoryNames": [],
+            "seo": {
+                "follow": false,
+                "index": true,
+                "canonical": "self",
+                "description": "Credit age is an important factor in determining credit score and can affect your financial future. We explore what exactly credit age is and how it is possible to improve it.",
+                "title": "Does My Age Affect My Credit Score? | Top10.com"
+            },
+            "tagId": [],
+            "publishAt": "2017-06-05T12:17:52.659Z",
+            "ver": "59354becdd607000013a26f5",
+            "varName": "Default",
+            "siteId": "57a30b909cd52c6d20081b0c",
+            "verticalId": "58a2fcd81ce3044b6963adca",
+            "segmentId": "58a2fd7f1ce3044b6963add5",
+            "authorId": "58ad91f92cdf015b9ceb9f15",
+            "title": "Does My Age Affect My Credit Score?",
+            "name": "does-my-age-affect-my-credit-score",
+            "createDate": "2017-05-22T12:31:06.504Z",
+            "updateDate": "2017-06-05T12:17:48.790Z",
+            "brief": "Credit age is an important factor in determining a person's credit score. We take an in-depth look at what credit age is, how it helps determine credit score and how we can potentially improve it.",
+            "body": "<p dir=\"ltr\">On average, our creditworthiness increases as we get older, but a person&rsquo;s actual date of birth doesn&rsquo;t directly determine their credit score. However, a person&rsquo;s credit age is an important factor in determining their credit score. In fact, credit age is one of the five factors that affects credit score, along with payment history, outstanding debt, new credit, and diversity of credit.&nbsp;</p><p dir=\"ltr\">A person&rsquo;s credit score helps determine if lenders will give them a loan or extend them a line of credit, as well as being a key factor in determining the interest rate they will be charged. Therefore, it is of the utmost importance to understand what credit age is and how it affects our credit score.&nbsp;</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><strong>What is the age of my credit history?</strong></p><p dir=\"ltr\">People start building their credit histories in their 20s by opening an account and maintaining it in good standing. The age of someone&rsquo;s credit history is the period that any account under their name remains open and active. The longer they maintain an account in good standing, the better it is for their credit score. For example, you have three accounts that you opened 15, 10, and 5 years ago. The credit age of your account is the average age of all your active accounts &ndash; in this case 10 years.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><strong>How important is the credit age for my credit score?</strong></p><p dir=\"ltr\">The age of credit accounts for 15% of a person&rsquo;s credit history and takes into consideration all active accounts, oldest and newest. Hence, those who keep opening new accounts will most likely hurt their credit score as the average credit age will be lower. In general, it is better to have an old credit age because it shows financial credibility, solvency and a person with a strong credit history and the ability to handle credit. The other four credit score factors are as follows:</p><p><br></p><ul><li dir=\"ltr\">Payment history accounts for 35% of credit score and it involves the timely payments a person makes (or doesn&rsquo;t make), collections issues, bankruptcy issues, foreclosures, and/or any other subject that may seriously hurt credit score.</li><li dir=\"ltr\">Outstanding debt accounts for 30% of credit score, and it includes credit card balances, credit utilization ratio, and loan balances.</li><li dir=\"ltr\">New credit accounts for 10% of credit score, and it involves the inquiries placed on a person&rsquo;s credit report pertaining to the applications they&rsquo;ve made for new credit. The more inquiries someone has, the more likely it is to hurt their credit score.</li><li dir=\"ltr\">Diversity of credit accounts for 10% of credit score, and this checks to see if someone has a variety of different credit types, such as installment loans, credit cards, mortgages and store accounts. Showing credit diversity improves credit score, but it is not recommended to open new accounts just to increase diversity, as this will negatively affect credit age.</li></ul><p><br></p><p></p><figure><img src=\"https://umbrella.data.naturalint.com/production/rich-text/uploads/photo/age-affect-credit-score-min.20170530095434.jpg\" data-title=\"How credit score is calculated\" data-alt=\"How credit score is calculated\" data-caption=\"\" class=\"fr-fic fr-dib\" alt=\"How credit score is calculated\" title=\"How credit score is calculated\"><figcaption> </figcaption></figure><br><p></p><p dir=\"ltr\">This is the breakdown of credit according to the system known as the FICO score, which is the most widely used model by banks and other lenders with an estimated 90 percent market share. There is another system of determining creditworthiness called VantageScore, which is slightly different than that of FICO. VantageScore, which is used by less than 10 percent of lenders, has a similar list of factors to FICO. In the VantageScore system, the age of each account is also designated as a &quot;highly influential&quot; factor. &nbsp;</p><p><br></p><p><strong>How important is my actual age in determining my credit score?</strong></p><p dir=\"ltr\">Credit scores vary based on different age groups. Simply being alive long enough to open and maintain accounts in good standing gives older people an advantage. Usually, people in their 30s have an average credit score of 637; people in their 40s have an average credit score of 654; people in their 50s have an average credit score of 675; people in their 60s have an average credit score of 697; people in their 70s have an average credit score of 722, and people who are 70+ have an average credit score of 747. Of course, all these are based on typical examples of accounts in good standing, of consumers who are not late, or not too late, in their payments, and so on. The credit score is calculated on an individual basis, considering the individual circumstances pertaining to each person.</p><p><br></p><p></p><figure><img src=\"https://umbrella.data.naturalint.com/production/rich-text/uploads/photo/age-affect-credit-score2-min.20170530095714.jpg\" data-title=\"Credit Score\" data-alt=\"Credit Score\" data-caption=\"\" class=\"fr-fic fr-dib\" alt=\"Credit Score\" title=\"Credit Score\"><figcaption> </figcaption></figure><br><p></p><p><strong>Can I improve my credit age?</strong></p><p dir=\"ltr\">Having old accounts can help you establish a strong credit age. Of course, in your 20s it is impossible to have a credit score of 700 because it is too early to have built and maintained old accounts in good standing. Hence, the younger someone is, the lower their credit age will be. However, as a person grows older, they would be well-advised not to open too many new accounts. They should focus on maintaining their existing accounts in good standing, making timely payments and making more than the minimum payments on their credit cards rather than opening new accounts that will bring down their average credit age. Improving credit age requires patience and strategy.</p><p><br></p><p><strong>Who will check my credit score?</strong></p><p dir=\"ltr\">Credit card companies, mortgage lenders, and auto finance companies will check a person&rsquo;s credit score when they apply for a loan or a new credit card to determine the level of risk they pose. Also, insurance companies will check credit score to estimate the financial risk they undertake by offering someone coverage. Sometimes, even prospective employers or landlords may perform a credit history check to determine whether a candidate is financially responsible.</p><p>Therefore, maintaining a good credit age, and subsequently, a high credit score, can go a long way in determining a person&rsquo;s financial future. When opening new accounts, it is advisable to consider what effect it will have on credit age and credit score.</p>",
+            "thumb": {
+                "url": "articles/uploads/photo/age-affect-credit-score2-min.20170522122742.jpg",
+                "alt": "Does my age affect my credit score?",
+                "title": "Does my age affect my credit score?"
+            },
+            "historyNames": ["does-my-age-affect-my-credit-score"],
+            "varId": "5922da0add607000013a26ce",
+            "__v": 0,
+            "author": {
+                "_id": "58ad91fffb8e75bf5a5472bd",
+                "id": "58ad91f92cdf015b9ceb9f15",
+                "varType": "default",
+                "verticalId": ["58a2fcd81ce3044b6963adca"],
+                "publishAt": "2017-06-15T11:29:14.572Z",
+                "ver": "59426f864427b900013446e5",
+                "siteId": "57a30b909cd52c6d20081b0c",
+                "first_name": "Jonathan",
+                "last_name": "Miller",
+                "email": null,
+                "phone": null,
+                "address": null,
+                "birthday": "2017-02-22T00:00:00.000Z",
+                "gender": null,
+                "title": "A no-nonsense financial adviser & loans mentor for consumers.",
+                "bio": "Jonathan Miller holds a degree in Applied Economics and Management from Cornell University. Drawing on his professional Fin Tech experience, Jonathan uses his knowledge to better serve consumer finance customers. Jonathan currently acts as an economics consultant for brokerage houses to help educate clients and make complex financial concepts more accessible to a wider audience.",
+                "quote": "lorem ipsum",
+                "image": {
+                    "url": "authors/uploads/photo/JM_headshot.20170222132809.JPG",
+                    "alt": "Jonathan Miller Top10 Finance Expert",
+                    "title": "Jonathan Miller Top10 Finance Expert"
+                },
+                "facebook": null,
+                "twitter": null,
+                "linkedIn": null,
+                "blog_url": null,
+                "varName": "default",
+                "varId": "58ad91f92cdf015b9ceb9f14",
+                "__v": 0
+            }
+        }, {
+            "_id": "59354bc04d13f11d2a9ff896",
+            "id": "5922e5f526dde7000177adb9",
+            "varType": "default",
+            "sharedHistoryNames": [],
+            "seo": {
+                "follow": false,
+                "index": true,
+                "canonical": "self",
+                "description": "A low credit score can negatively affect a person's financial future. Lenders decide whether or not to give someone a loan or line of credit in large part due to their credit score. We look at how credit score is determined and what steps can be taken to improve it.",
+                "title": "How to Improve Your Credit Score | Top10.com"
+            },
+            "tagId": [],
+            "publishAt": "2017-06-05T12:16:37.361Z",
+            "ver": "59354b9ddd607000013a26f0",
+            "varName": "default",
+            "siteId": "57a30b909cd52c6d20081b0c",
+            "verticalId": "58a2fcd81ce3044b6963adca",
+            "segmentId": "58a2fd7f1ce3044b6963add5",
+            "authorId": "58ad91f92cdf015b9ceb9f15",
+            "title": "How to Improve Your Credit Score",
+            "name": "how-to-improve-your-credit-score",
+            "createDate": "2017-05-22T13:21:57.451Z",
+            "updateDate": "2017-06-05T12:16:29.722Z",
+            "brief": "A low credit score can negatively affect a person's financial future. Lenders decide whether or not to give someone a loan or line of credit in large part due to their credit score. We look at how credit score is determined and what steps can be taken to improve it.",
+            "body": "<p>Those being penalized due to a low credit score don&rsquo;t have to simply accept the situation. It can take a bit of time, but there are steps that can be taken to improve this evaluation of creditworthiness.</p><p>A poor credit score can hound a person, and make it difficult for them to function in the modern world. It can prevent someone from owning their own home, or cause lenders to give them a higher interest rate.</p><p>The first step to improving credit score is understanding how it is formulated.</p><p></p><figure><img src=\"https://umbrella.data.naturalint.com/production/rich-text/uploads/photo/new_how-to-improve-credit-score-min_(1).20170605121540.jpg\" data-title=\"How to improve your credit score\" data-alt=\"How to improve your credit score\" data-caption=\"\" class=\"fr-fic fr-dib\" alt=\"How to improve your credit score\" title=\"How to improve your credit score\"><figcaption> </figcaption></figure><br><p></p><p><strong>What is a Credit Score?</strong></p><p>A credit score is a three-digit representation of creditworthiness &ndash; the higher this number is, the less of a risk someone appears to pose to would-be lenders. There is actually more than one type of credit score, but the one that is most often used is known as FICO score. This scoring system uses five variables to determine creditworthiness:</p><p><br></p><ul><li>Payment history</li><li>Length of credit history &ndash; this includes lines of credit and the length of time someone has had each line</li><li>Credit utilization &ndash; this is calculated based on the amount of credit someone actually uses compared to how much they have available</li><li>New credit &ndash; for example, if you have recently been trying to obtain new credit cards, it can lower your score</li><li>Types of credit - This measures if someone has repaid a variety of debt, such as revolving credit and installment loans</li></ul><p><br></p><p>Some lenders rely on VantageScore credit scoring, which is based on similar factors:</p><p><br></p><ul><li>Available credit</li><li>Depth of credit (types of credit and credit history)</li><li>Payment history</li><li>Utilization of credit</li><li>Recent credit</li><li>Credit balances</li></ul><p><br></p><p>Credit score changes in response to alterations to any of these variables, so this makes it possible for people to improve their standing over time.</p><p><br></p><p><strong>What Steps Can I Take to Improve My Credit</strong></p><p>Once we have a good understanding of how our credit score is calculated, it will be easier to make educated decisions about how we can improve it. Some common misconceptions about improving credit score can be ruled out.</p><p>For example, showing an aptitude for saving money, or attempting to increase credit score by only using cash will not help. The amount of savings in a bank account, or number of assets we possess, is not among the factors considered when calculating credit score.</p><p>The wise move is to show a history of responsibly using credit. Actions that will alter one of the variables used to calculate credit score are what&rsquo;s important.</p><p><br></p><p><strong>Get a Copy of Your Credit Report</strong></p><p>One of the most basic steps someone can take to improve their credit score is to get a copy of their credit report. This useful document includes a list of a person&rsquo;s lines of credit, and their history in regard to debt. It gives us a much better idea of how potential creditors are going to look at our application. In addition, seeing our credit report allows us to check for any mistakes in our credit history or suspicious activity, such as someone opening up a fraudulent account or line of credit in our name.</p><p>US citizens are entitled to get a free copy of their credit report from AnnualCreditReport.com. The credit report does not include credit score, which can be obtained from credit reporting agencies, who will also generally provide tips on how to improve the score.</p><p><br></p><p><strong>Reduce the Amount of Debt You Owe</strong></p><p>Those who already owe a great deal to lenders are less likely to be extended further credit at a favorable rate. The amount of debt a person owes has an influence on lenders, as the list of factors that make up our credit score tells us.</p><p>Lowering our debt must be done in the correct way. It is recommended that it be done without lowering &nbsp;credit limit or getting rid of credit cards &ndash; both of these actions are likely to lower credit utilization score. The goal should be to arrive at a situation in which we are utilizing less than 30 percent of our available credit.</p><p><br></p><p><strong>Pay Minimum Amounts Before the Due Date</strong></p><p>Those who prove that they are reliable are rewarded with a higher credit score. This means always paying back the minimum amount on any bills before they are due.</p><p>It is a good idea to set up direct payments, so the money owed is automatically paid on time &ndash; this way there is no chance of forgetting a payment.</p><p><br></p><p><strong>Have and Use At Least One Credit Card</strong></p><p>For those who don&rsquo;t already have a credit card, it is a good idea to get one. It bears repeating that one has to build a history of using credit sensibly in order to prove creditworthiness.</p><p>Having this line of credit can be handy, and it doesn&rsquo;t have to cost anything, on condition that the cardholder can pay back the amount of money they have borrowed by the end of every month.</p><p>It is advised to make low-value purchases that you know you can afford to repay. This way, a high level of activity will be built upon the history of the credit card; activity that will always end in timely repayments in full.</p><p>In order to improve a credit score, we not only have to avoid being late on payments or having a large amount of debt. Those who have never had a line of credit are a mystery and a risk to lenders as well. Having a good credit score can only come by showing a history of using credit responsibly.</p><p><br></p>",
+            "thumb": {
+                "url": "articles/uploads/photo/age-affect-credit-score-min.20170522132100.jpg",
+                "alt": "How to Improve Your Credit Score",
+                "title": "How to Improve Your Credit Score"
+            },
+            "historyNames": ["how-to-improve-your-credit-score"],
+            "varId": "5922e5f526dde7000177adb8",
+            "__v": 0,
+            "author": {
+                "_id": "58ad91fffb8e75bf5a5472bd",
+                "id": "58ad91f92cdf015b9ceb9f15",
+                "varType": "default",
+                "verticalId": ["58a2fcd81ce3044b6963adca"],
+                "publishAt": "2017-06-15T11:29:14.572Z",
+                "ver": "59426f864427b900013446e5",
+                "siteId": "57a30b909cd52c6d20081b0c",
+                "first_name": "Jonathan",
+                "last_name": "Miller",
+                "email": null,
+                "phone": null,
+                "address": null,
+                "birthday": "2017-02-22T00:00:00.000Z",
+                "gender": null,
+                "title": "A no-nonsense financial adviser & loans mentor for consumers.",
+                "bio": "Jonathan Miller holds a degree in Applied Economics and Management from Cornell University. Drawing on his professional Fin Tech experience, Jonathan uses his knowledge to better serve consumer finance customers. Jonathan currently acts as an economics consultant for brokerage houses to help educate clients and make complex financial concepts more accessible to a wider audience.",
+                "quote": "lorem ipsum",
+                "image": {
+                    "url": "authors/uploads/photo/JM_headshot.20170222132809.JPG",
+                    "alt": "Jonathan Miller Top10 Finance Expert",
+                    "title": "Jonathan Miller Top10 Finance Expert"
+                },
+                "facebook": null,
+                "twitter": null,
+                "linkedIn": null,
+                "blog_url": null,
+                "varName": "default",
+                "varId": "58ad91f92cdf015b9ceb9f14",
+                "__v": 0
+            }
+        }, {
+            "_id": "58beaa71fb8e75bf5a5477dd",
+            "id": "58beaa78f38efc4f52c6c181",
+            "varType": "default",
+            "seo": {
+                "title": "Boost Creditworthiness with Your Credit Report",
+                "description": "Once you’ve identified and fixed any longstanding issues buried in your credit report, the bank will never be able to say no again.",
+                "follow": false,
+                "canonical": "self",
+                "index": false
+            },
+            "tagId": [],
+            "publishAt": "2017-03-29T12:03:12.305Z",
+            "varName": "default",
+            "historyNames": ["the-good-news-about-bad-credit-is-that-it-inspires-change"],
+            "thumb": {
+                "url": "articles/uploads/photo/What-you-need-to-know-about-credit-reports-2_(1).20170307124112.jpg",
+                "alt": "The Good News About Bad Credit is that it Inspires Change",
+                "title": "The Good News About Bad Credit is that it Inspires Change"
+            },
+            "body": "<p><i>In all my years in this profession I’ve never heard it said \"Help. Somebody. Is there a poor credit person in the house?!\" <span id=\"selectionBoundary_1488889683940_4385594930373724\" class=\"rangySelectionBoundary\" style=\"line-height: 0; display: none;\">﻿</span></i><br></p><p><i>I've never been able to say, \"Step aside! I have a 320 credit score and I’m not afraid to use it!\" </i><br></p><p>[True conversation between a banker and a loan seeker]<br></p><p>There are times when your credit score gives you nothing to smile about. When you get turned down for a loan is one such time. Suddenly, your big plans have been pushed back and your prospects come to a screeching halt. Pulling your hair out is likely an immediate reaction, but what’s the next step? Reaching for your credit report, that’s what. <br></p><h2>Getting Past Credit Refusal<br></h2><p>Banks have access to applicants’ credit history, that's a fact. Creditworthiness is measured on the basis of credit history, that's another fact. One final fact is that an applicant can (and should) know what creditors will see before they do.&nbsp;</p><p>Credit laws have made it so that credit reports are free on an annual basis and obtaining them is relatively hassle free. If credit reports are easily attainable and cost nothing to boot, knowing your credit score is your mission. While it may sound as if you are being bitterly scolded about your finances, it is in fact a compassionate mirroring of what banks are thinking:<br></p><p>“<i>L</i><i>oan applicants should know that the loan amount they’re seeking is in sync with their finances and that there’s a harmonious coexistence between what they are asking for and what a lender will be comfortable giving – that’s just basic understanding of economy</i>” says Kathleen DeMarco, an executive at Smart Financing firm based in New York City. <br></p><p>So where does that leave loan applicants who’ve been around the block and been turned down one or twice before? As the old adage goes, fall once, try again. But this time, try smart. Grab your credit report and look it over. Dispute it if you have to. Memorize your credit score and set attainable, realistic expectations for your loan amount and repayment plan. <br></p><h2>Blasting Incongruities May Spell a Boost in Credit Score<br></h2><p>The credit score is the three digit number located approximately at the center of your credit report. Anything below 721, most banks will not consider lending you money even at sub-par rates. If you are missing a few points to reach this number, disputing irregularities on your credit report is the way to rack those points up.&nbsp;</p><p>“<i>It comes down to being diligent and doing the work,</i>” explains Arthur Marcus of Smart Financing. “<i>Mistakes happen all the time and reporting agencies like Equifax are truly accommodating. They are required to respond to dispute claims within 28 days and for the most part will accept disputed items. That is money lying on the table right there.</i>”&nbsp;</p><p>The two most potentially damaging sections of a credit report are the inquiries and credit history sections. Easily fixable, these minor to major mistakes can improve a score in as little as one month.&nbsp;</p><p><b>Credit Inquiries</b>: this section details the number of times a loan or line of credit was applied for and with which creditor. An entry you don’t recognize could signal a problem. It may mean that  an impersonator tried to take out a loan in your name.&nbsp;</p><p><b>Credit History: </b>New lines of credit, past lines of credit and existing lines of credit will all be in this section. It is here too that the how outweighs the what. What this means is that it doesn’t matter as much the loan size you took or your monthly return rate, be it $200 or $2,000 per month, but the consistency or irregularity with which the repayment is handled.&nbsp;</p><p>Creditors are on the lookout for patterns. They want to see about reliability.&nbsp;</p><p>“<i>This past May we had a small business client, a walk-in that we knew very little about, who had a rather lousy credit score but a stellar track record of repayment. He wanted to know about taking out a loan...</i>\" recalls Marcus “<i>my advise was a resounding ‘Go for it!</i>’ “ A good credit history has the potential to, if not outweigh your credit score, at least balance it out. \n<br></p><h2>The Snowball Method</h2><p>Too often the panic surrounding the discovery of a painful credit score will drive you to take immediate and drastic action. Cancelling credit cards and even selling off mortgaged property are common mistakes. Remember we were talking about how everything shows up on your credit report? All transactions, right? Well then, cancelling credit cards actually has an adverse effect on your credit score. It lets creditors know you are in a state of panic and reacting.&nbsp;</p><p>With proper budgeting, the snowball method allows you to practice a cool and collected approach that is far more reassuring to creditors. Paying off the minimum on each line of credit, and then using the surplus to get a head start on the premium of the bills you’ve deemed a priority, is a method creditors appreciate. Whether this is the small potatoes gym membership or the big guns home mortgage, paying minimums will help you build up a strong and reliable track record.\n<br></p><h2>It's a Numbers Game</h2><p>Back at the banks, it’s not just the numbers they’re looking at. Patterns of behavior, consistency versus erratic changes, markers of reliability, successful returns on loans taken, employment history and the likes are determining factors that stand to alter the seemingly fatal fate brought on by credit scores.&nbsp;</p><p>“<i>Every now and then we see it happen; a credit score that goes from poor to very good within a few years.</i>” To make that happen takes a leap of faith - on the sides of lender and loaner both. \n<br></p><p><br></p><p><!--StartFragment--><b style=\"box-sizing: border-box; font-weight: 700; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 12.8px; background-color: rgb(255, 255, 255);\"><b style=\"box-sizing: border-box; font-weight: 700; color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);\">What if you could take the first step towards improving your credit score as early as today? Bet you wouldn't say no to that. Browse our list of the<span class=\"Apple-converted-space\" style=\"box-sizing: border-box;\">&nbsp;</span><span class=\"Apple-converted-space\" style=\"box-sizing: border-box;\"><a href=\"http://www.top10.com/credit-reports/\" rel=\"nofollow\" class=\"\" target=\"_blank\">UK's top credit reference agencies</a> </span>and be on your way to the best finance sanity check you can get.&nbsp;</b></b><!--EndFragment--><br></p>",
+            "brief": "There are times when your credit score gives you nothing to smile about. When you get turned down for a loan is one such time. Suddenly, your big plans have been pushed back and your prospects come to a screeching halt. Pulling your hair out is likely an immediate reaction, but what’s the next step? Reaching for your credit report, that’s what.",
+            "updateDate": "2017-03-29T12:02:30.634Z",
+            "createDate": "2017-03-07T12:41:28.545Z",
+            "name": "the-good-news-about-bad-credit-is-that-it-inspires-change",
+            "title": "The Good News About Bad Credit is that it Inspires Change",
+            "authorId": "58ad91f92cdf015b9ceb9f15",
+            "segmentId": "58a2fd7f1ce3044b6963add5",
+            "verticalId": "58a2fcd81ce3044b6963adca",
+            "siteId": "57a30b909cd52c6d20081b0c",
+            "ver": "58dba256b56a34636c0b98be",
+            "varId": "58beaa78f38efc4f52c6c180",
+            "__v": 0,
+            "author": {
+                "_id": "58ad91fffb8e75bf5a5472bd",
+                "id": "58ad91f92cdf015b9ceb9f15",
+                "varType": "default",
+                "verticalId": ["58a2fcd81ce3044b6963adca"],
+                "publishAt": "2017-06-15T11:29:14.572Z",
+                "ver": "59426f864427b900013446e5",
+                "siteId": "57a30b909cd52c6d20081b0c",
+                "first_name": "Jonathan",
+                "last_name": "Miller",
+                "email": null,
+                "phone": null,
+                "address": null,
+                "birthday": "2017-02-22T00:00:00.000Z",
+                "gender": null,
+                "title": "A no-nonsense financial adviser & loans mentor for consumers.",
+                "bio": "Jonathan Miller holds a degree in Applied Economics and Management from Cornell University. Drawing on his professional Fin Tech experience, Jonathan uses his knowledge to better serve consumer finance customers. Jonathan currently acts as an economics consultant for brokerage houses to help educate clients and make complex financial concepts more accessible to a wider audience.",
+                "quote": "lorem ipsum",
+                "image": {
+                    "url": "authors/uploads/photo/JM_headshot.20170222132809.JPG",
+                    "alt": "Jonathan Miller Top10 Finance Expert",
+                    "title": "Jonathan Miller Top10 Finance Expert"
+                },
+                "facebook": null,
+                "twitter": null,
+                "linkedIn": null,
+                "blog_url": null,
+                "varName": "default",
+                "varId": "58ad91f92cdf015b9ceb9f14",
+                "__v": 0
+            }
+        }, {
+            "_id": "58b6a139fb8e75bf5a54758b",
+            "id": "58b697a3f38efc4f52c6c15b",
+            "varType": "default",
+            "seo": {
+                "title": "Striking a Balance: Managing Debt Instead of Being Managed By It | Top10.com",
+                "description": "Striking a Balance: Managing Debt Instead of Being Managed By It | Top10.com",
+                "follow": false,
+                "canonical": "self",
+                "index": false
+            },
+            "tagId": [],
+            "publishAt": "2017-03-29T12:03:11.166Z",
+            "ver": "58dba255b56a34636c0b98bb",
+            "siteId": "57a30b909cd52c6d20081b0c",
+            "verticalId": "58a2fcd81ce3044b6963adca",
+            "segmentId": "58a2fd7f1ce3044b6963add5",
+            "authorId": "58ad91f92cdf015b9ceb9f15",
+            "title": "Striking a Balance: Managing Debt Instead of Being Managed By It",
+            "name": "striking-a-balance-managing-debt-instead-of-being-managed-by-it",
+            "createDate": "2017-03-01T09:42:59.769Z",
+            "updateDate": "2017-03-29T12:02:29.487Z",
+            "brief": "The truth is that debt weighs down on your budget and squashes your spirit. Another truth is that you can’t change what you don’t acknowledge. The question now is what’s preventing you from tackling your debt? \nIf it’s about burying your head in the sand – wake up and smell the coins dropping. \nIf it’s about not knowing how to go about it – read on, we’re here to help.",
+            "body": "<p>The truth is that debt weighs down on your budget and squashes your spirit. Another truth is that you can’t change what you don’t acknowledge. The question now is what’s preventing you from tackling your debt?</p><p>If it’s about burying your head in the sand – wake up and smell the coins dropping.</p><p>If it’s about not knowing how to go about it – read on, we’re here to help.</p><p>To tackle your debt, even if your end goal is just to make sure your loans are in order, your first order of business is to get your documents sorted. This means both incoming finances (pay slips) and outgoing funds (bills), as well as account summaries and bank statements. And while you may be tempted to think that this year’s documents will suffice, be warned – they won’t. To get a proper view of your debt you’ll need to look back at earnings and expenses all the way to your first brush with debt. A full picture like this will let you know what loans you’ve taken, who your creditors are and what these loans are costing you in monthly interest rates. The best tool to use at this point is a personal credit report, which is easily attainable online with companies such as&nbsp;<a href=\"http://c1283.redirecting2.net/trackclick.aspx?cID=1283&amp;c=2773&amp;redirect=auto&amp;affid=3364&amp;affsubid=[tracking-subid]&amp;n=13&amp;destURL=https://www.mycreditmonitor.co.uk/free-credit-report-2/\" rel=\"nofollow\" class=\"\" target=\"_blank\">My Credit Monitor</a>.</p><p>Assuming your information is in order, you can begin prioritizing the debt that is objectively better to settle first.</p><ul><li>Pay off your electricity and rent first</li><li>Then go for your mortgage and auto loans</li>\n<li>Finally, tackle the debt that does not threaten your quality of life – like credit cards or overdue memberships</li>\n</ul><p>One way to go about achieving this payoff pyramid with low cash flow is applying the ‘snowball method’. By paying the minimum on each outstanding bill, you’ll be able to push back what’s left to pay on the debt you’ve prioritized. In essence, you’ll be slowly diminishing your debt in an affordable fashion, one outstanding payment at a time. But if putting out fires doesn’t sit well with your personality yet money is tight and the possibility of paying off your entire debt is not an option, getting creditors to renegotiate your loan terms may be the way to go.</p><p><strong><em>Word to the wise:</em></strong> Resist the temptation to pay off the lowest bills first, as you may be risking default on more important debt that could result in your heating being turned off or worse.</p><h2>Letting Your Credit Report Be Your Wake Up Call</h2><p>A common pitfall too often overlooked has to do with the accuracy of the numbers you’re basing your debt estimations on. How up to date are the bills you’re looking at? And what’s the date on your last bank statement? “Not knowing the full extent of your debt is a problem that inevitably leads to more problems” explains Gareth McLaren, Atlanta based financial advisor. “The color of paper an overdue bill is printed on will sometimes let you know where you stand. Other times, though, warning signs are not as clear and obvious. Those are the times you’ll need to be proactive and get the latest statement from your bank. It won’t be on a scary red paper and it won’t have ominous warning signs, but the balance it reflects can be thousands of pounds off from your last bank statement”.&nbsp;</p><p>Companies like Citizen Advice, National Debtline and Consumer Credit Counselling exist to help consumers know their debt situation in full. Another, easier, way to get this information is by applying for a free credit report online.</p><p>Once you have your credit report, it’s necessary to authenticate he information that’s on it.</p><p>The discrepancies you may notice range from common to worrisome.</p><p><strong><em>1st section of the report – your personal information </em></strong></p><p>Clerical errors in name, address, account information or contact details should be fixed to establish you as the owner of the accounts. Even in the age of technology, human errors do happen and in extreme cases can lead your bank or creditors not to recognize you as the owner of your own account.</p><p><strong><em>2<sup>nd</sup> section – credit history and inquiries</em></strong></p><p>Thoroughly scrutinize your credit history to be sure that you recognize each entry as a line of credit taken out by you alone. Are the amounts correct? This is a common error with far-reaching consequences. If there is something here that you aren’t familiar with or don’t remember, it could mean that someone has stolen your identity and used it to take out debt in your name. Credit inquiries follow the same logic: if there are credit inquiries made to a bank you don’t recognize, it could also point to a case of stolen identity.</p><p>Furthermore, do not worry if the report’s total credit score isn’t shown. The array of free services available often neglect to include this piece of information until signing up and paying for a subscription service. While this number is important to have should, it isn’t required to begin the process of improving your credit score.</p><h2>Tis' Time to Make a Change: Fixing Your Credit</h2><p>Paid reporting services such as <u><span style=\"color:#4472C4;\nmso-themecolor:accent1\"><span id=\"selectionBoundary_1488363732269_5457850397100665\" class=\"rangySelectionBoundary\" style=\"line-height: 0; display: none;\">﻿</span><a href=\"http://www.awin1.com/cread.php?awinmid=3085&amp;awinaffid=208715&amp;clickref=[var]_[tracking-subid]&amp;p=\" rel=\"nofollow\" class=\"\" target=\"_blank\">Equifax</a></span></u>&nbsp;can offer insights into your credit\nstanding, displaying your score and detailing the items. Yet the full weight of\ntheir backing comes into play if you have found errors in your report and need\na strong back to dispute them for you. </p><p>By British law, creditors must amend faulty credit items\nwithin 28 days. This means that if a grave error is even partly to blame for\nyour debt crisis, you could be seeing a much brighter picture within as little\nas one month. </p><p>Another vital element affecting your overall credit score is\nthe amount of credit creditors are willing to extend to you. Referred to as your\navailable credit, the golden rule is to not borrow more than 30% of your total\nearnings. However, this does not mean you should reduce your credit limit or\ncancel your cards right away. The ultimate measure of your creditworthiness\nisn’t in how much credit you have, but how you use it. Cancelling cards and\nchopping your debt availability doesn’t look good, but neither does opening new\ncards.</p><p><b><i>This you want to know: </i></b>According to UK law any\ndebt that is considered “bad” (e.g. unpaid, outstanding, overdue) can be\nremoved from your credit report after a period of 6 years. </p><h2>A Path to Debt Relief</h2><p>The psychological warfare surrounding debt is enough to get even a financially savvy individual nervous. And while concern about your debt situation is not without reason, people in debt need to be helped out of it not shoved further into the closet of fear. “Fear is a debilitating factor that adds on more imaginary zeros to our debt” explains McLaren.</p><p>There’s plenty that can be done to handle debt and the dirty little secret banks and creditors don’t want you to know is that they are just as nervous as you are to get their money back. Deals are struck with creditors, mortgages are recycled, loans refinanced, every day. People do get out of debt.</p><p><br></p><p><b>What if you could take the first step towards improving your credit score as early as today? Bet you wouldn't say no to that. Browse our list of the <a href=\"http://www.top10.com/credit-reports/\" rel=\"nofollow\" class=\"\" target=\"_blank\">UK's top credit reference agencies</a> and be on your way to the best finance sanity check you can get.&nbsp;</b><br></p><p><br></p>",
+            "thumb": {
+                "url": "articles/uploads/photo/Dealing-with-debt-1.20170305140330.jpg",
+                "alt": "Striking a Balance: Managing Debt Instead of Being Managed By It",
+                "title": "Manage Your Debt"
+            },
+            "historyNames": ["striking-a-balance-managing-debt-instead-of-being-managed-by-it"],
+            "varName": "default",
+            "varId": "58b697a3f38efc4f52c6c15a",
+            "__v": 0,
+            "author": {
+                "_id": "58ad91fffb8e75bf5a5472bd",
+                "id": "58ad91f92cdf015b9ceb9f15",
+                "varType": "default",
+                "verticalId": ["58a2fcd81ce3044b6963adca"],
+                "publishAt": "2017-06-15T11:29:14.572Z",
+                "ver": "59426f864427b900013446e5",
+                "siteId": "57a30b909cd52c6d20081b0c",
+                "first_name": "Jonathan",
+                "last_name": "Miller",
+                "email": null,
+                "phone": null,
+                "address": null,
+                "birthday": "2017-02-22T00:00:00.000Z",
+                "gender": null,
+                "title": "A no-nonsense financial adviser & loans mentor for consumers.",
+                "bio": "Jonathan Miller holds a degree in Applied Economics and Management from Cornell University. Drawing on his professional Fin Tech experience, Jonathan uses his knowledge to better serve consumer finance customers. Jonathan currently acts as an economics consultant for brokerage houses to help educate clients and make complex financial concepts more accessible to a wider audience.",
+                "quote": "lorem ipsum",
+                "image": {
+                    "url": "authors/uploads/photo/JM_headshot.20170222132809.JPG",
+                    "alt": "Jonathan Miller Top10 Finance Expert",
+                    "title": "Jonathan Miller Top10 Finance Expert"
+                },
+                "facebook": null,
+                "twitter": null,
+                "linkedIn": null,
+                "blog_url": null,
+                "varName": "default",
+                "varId": "58ad91f92cdf015b9ceb9f14",
+                "__v": 0
+            }
+        }]
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 5
+    },
+    "env": {
+        "browser": true
+    },
+    "plugins": [
+        "compat"
+    ],
+    "rules": {
+        "compat/compat": 2
+    }
+}

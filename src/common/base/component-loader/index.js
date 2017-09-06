@@ -3,16 +3,17 @@ import PropTypes from 'prop-types';
 
 export default class ComponentLoader extends PureComponent {
     static EMPTY = () => null;
-    static ROOT = '../../../components';
 
     static contextTypes = {
-        load: PropTypes.func
+        load: PropTypes.func,
+        dependencies: PropTypes.object
     };
 
     componentWillMount() {
-        const {load} = this.context;
-        const {name} = this.props;
-        const LoadedComponent = load(name) || ComponentLoader.EMPTY;
+        const {load, dependencies} = this.context;
+        const {name, version = dependencies[name]} = this.props;
+
+        const LoadedComponent = load(name, version) || ComponentLoader.EMPTY;
         this.setState({WrappedComponent: LoadedComponent});
     }
 

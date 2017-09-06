@@ -9,7 +9,7 @@ chai.use(chaiEnzyme());
 
 const {expect} = chai;
 
-import Script from '../../src/elements/page/Script';
+import Script from '../../src/common/elements/page/Script';
 
 describe('<Script /> component', function() {
     it('should allow empty content', function() {

@@ -1,5 +1,7 @@
 'use strict';
 
+require('dotenv').config();
+
 const DEV = (['build', 'profile'].indexOf(process.env.npm_lifecycle_event) < 0);
 
 if (DEV) {
@@ -21,6 +23,8 @@ const nodeExternals = require('webpack-node-externals');
 const autoprefixer = require('autoprefixer');
 const reporter = require("postcss-reporter");
 const stylelint = require("stylelint");
+
+const {createEntries} = require('./tools/build/utils/entry');
 
 const ROOT = PATH.resolve(__dirname, '.');
 
@@ -73,10 +77,7 @@ const CSS_LOADERS = [
 
 const BASE_CONFIG = {
     target: 'node',
-    entry: {
-        header: PATH.resolve(SRC, 'components/header/index.js'),
-        unification: PATH.resolve(SRC, 'pages/unification/index.js')
-    },
+    entry: () => createEntries(['src/components/*/', 'src/pages/*/']),
     output: {
         libraryTarget: 'commonjs-module',
         filename: '[name]/index.js',
@@ -90,21 +91,45 @@ const BASE_CONFIG = {
     module: {
         rules: [
             {
-                test: /(\.scss|\.css)$/,
+                test: /inline-assets\/fonts\/.*\.(woff|woff2)$/,
+                include: SRC,
+                exclude: [NODE_MODULES],
+                loader: 'url-loader'
+            },
+            {
+                test: /inline-assets\/style\/.*\.(scss|css)$/,
                 include: SRC,
                 exclude: [NODE_MODULES],
                 use: CSS_LOADERS
             },
             {
-                test: /\.(js|jsx)$/,
+                test: /inline-assets\/images\/.*\.svg$/,
+                include: SRC,
+                exclude: [NODE_MODULES],
+                loader: 'svg-inline-loader',
+                options: {
+                    removeTags: true,
+                    removeSVGTagAttrs: true
+                }
+            },
+            {
+                test: /inline-assets\/js\/.*\.(js|jsx)/,
                 include: SRC,
                 exclude: [NODE_MODULES],
                 use: [{
-                    loader: 'babel-loader',
-                    query: {
-                        cacheDirectory: CACHE_DIR_PATH
-                    }
+                    loader: 'raw-loader'
+                // }, {
+                //     loader: 'eslint-loader'
                 }]
+            },
+            {
+                test: /\.(js|jsx)$/,
+                include: SRC,
+                exclude: [NODE_MODULES],
+                loader: 'babel-loader',
+                options: {
+                    cacheDirectory: CACHE_DIR_PATH
+                }
             },
             {
                 test: /\.(graphql|gql)$/,
