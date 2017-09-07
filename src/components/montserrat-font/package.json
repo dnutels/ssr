@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "type": "component",
+  "name": "montserrat-font",
+  "description": "Montserrat Font component",
+  "version": "0.0.1"
+}

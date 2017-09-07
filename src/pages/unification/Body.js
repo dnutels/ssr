@@ -12,7 +12,7 @@ import {Script} from '../../common/elements/page/';
 import {SVGDefinition} from '../../common/elements/svg/';
 
 export default function Body(props) {
-    const {common, name, version, [name]: page} = props;
+    const {common, name, version, [name]: page, scripts} = props;
     const {assetsCdn: cdn = {}, niEnv: env = ENV} = common;
     const url = get(common, 'tracking.funnelManagerUrl');
     const domain = get(common, 'rapido.host');
@@ -27,6 +27,10 @@ export default function Body(props) {
     const {chart = {}} = page;
     const {title} = chart;
 
+    const scriptTags = scripts.map((script, index) => {
+        return <Script type="text/javascript" src={script} key={index} />;
+    });
+
     return (
         <body className="page__font-light" data-type={name} data-version={version}>
             <SVGDefinition>{logo}</SVGDefinition>
@@ -35,6 +39,8 @@ export default function Body(props) {
             <Script hidden={hideTracker} type="text/javascript" src={funnelURL} defer async />
             <Script type="text/javascript" src="//126557.tctm.co/t.js" defer async />
             <Script hidden={hideData}>window.data = {data};</Script>
+            <Script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js" />
+            {scriptTags}
         </body>
     );
 }

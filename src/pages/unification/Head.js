@@ -9,16 +9,6 @@ import css from './inline-assets/style/index.scss';
 import fontFaceObserver from './inline-assets/js/font-face-observer.js';
 import fontLoader from './inline-assets/js/font-loader.js';
 
-import light from './inline-assets/fonts/Montserrat/montserrat-light.woff';
-import regular from './inline-assets/fonts/Montserrat/montserrat-regular.woff';
-import bold from './inline-assets/fonts/Montserrat/montserrat-bold.woff';
-
-const fonts = [
-    {name: 'MontserratCrit', font: light, weight: 300, style: 'normal'},
-    {name: 'MontserratCrit', font: regular, weight: 400, style: 'normal'},
-    {name: 'MontserratCrit', font: bold, weight: 700, style: 'normal'}
-];
-
 const COMMON_SEO_PROPS = ['segment.seo', 'themeName', 'lang', 'siteId', 'rapido'];
 const COMMON_OG_PROPS = ['openGraph', 'websiteSeoSchema'];
 const TITLE_PROPS = 'chart.seo.title';
@@ -31,6 +21,8 @@ const PRELOAD = [
 
 const ENV = 'development';
 
+import ComponentLoader from '../../common/base/component-loader/';
+
 import {
     Meta,
     SEO,
@@ -39,8 +31,7 @@ import {
     Favicon,
     Script,
     Style,
-    Preload,
-    Font
+    Preload
 } from '../../common/elements/page/';
 
 export default function Head(props) {
@@ -70,7 +61,7 @@ export default function Head(props) {
             <Preload links={preloadLinks} />
             <Script>{fontFaceObserver}</Script>
             <Script>{fontLoader}</Script>
-            <Font fonts={fonts} />
+            <ComponentLoader name="montserrat-font" />
             <Style>{css}</Style>
             {/* <Script hidden={!showNewRelic}>{nreum}</Script> */}
         </head>

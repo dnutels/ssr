@@ -18,6 +18,8 @@ const {BundleAnalyzerPlugin} = require('webpack-bundle-analyzer');
 const StatsPlugin = require('stats-webpack-plugin');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const OptimizeJsPlugin = require('optimize-js-plugin');
+const WebpackOnBuildPlugin = require('on-build-webpack');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 const nodeExternals = require('webpack-node-externals');
 const autoprefixer = require('autoprefixer');
@@ -25,6 +27,7 @@ const reporter = require("postcss-reporter");
 const stylelint = require("stylelint");
 
 const {createEntries} = require('./tools/build/utils/entry');
+const {zip, copy} = require('./tools/build/utils/transform');
 
 const ROOT = PATH.resolve(__dirname, '.');
 
@@ -75,6 +78,10 @@ const CSS_LOADERS = [
     }
 ];
 
+const extractJS = new ExtractTextPlugin({
+    filename: '[name]/assets/js/index.js'
+});
+
 const BASE_CONFIG = {
     target: 'node',
     entry: () => createEntries(['src/components/*/', 'src/pages/*/']),
@@ -84,7 +91,8 @@ const BASE_CONFIG = {
         path: COMPONENTS
     },
     externals: [nodeExternals()],
-    devtool: 'cheap-module-eval-source-map',
+    // devtool: 'cheap-module-eval-source-map',
+    devtool: 'source-map',
     watchOptions: {
         ignored: /node_modules/
     },
@@ -113,7 +121,7 @@ const BASE_CONFIG = {
                 }
             },
             {
-                test: /inline-assets\/js\/.*\.(js|jsx)/,
+                test: /inline-assets\/js\/.*\.(js|jsx)$/,
                 include: SRC,
                 exclude: [NODE_MODULES],
                 use: [{
@@ -121,6 +129,19 @@ const BASE_CONFIG = {
                 // }, {
                 //     loader: 'eslint-loader'
                 }]
+            },
+            {
+                test: /[^-]assets\/js\/.*\.js$/,
+                include: SRC,
+                exclude: [NODE_MODULES],
+                use: extractJS.extract({
+                    use: [
+                        {
+                            loader: 'raw-loader'
+                        }
+                    ],
+                    remove: true
+                })
             },
             {
                 test: /\.(js|jsx)$/,
@@ -144,6 +165,7 @@ const BASE_CONFIG = {
     },
     plugins: [
         new CleanWebpackPlugin([DIST]),
+        extractJS
     ]
 };
 
@@ -159,7 +181,11 @@ const PROD_CONFIG = {
         }),
         new UglifyJsPlugin({extractComments: true}),
         new OptimizeJsPlugin({sourceMap: false}),
-        new webpack.optimize.ModuleConcatenationPlugin()
+        new webpack.optimize.ModuleConcatenationPlugin(),
+        new WebpackOnBuildPlugin(async (stats) => {
+            await zip(DIST, 'components/*/*', 'private');
+            await copy(DIST, 'components/**/assets*/*', 'public');
+        })
     ]
 };
 

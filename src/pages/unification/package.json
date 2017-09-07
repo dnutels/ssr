@@ -4,6 +4,7 @@
   "name": "unification",
   "version": "0.0.1",
   "dependencies": {
-    "header": "0.0.1"
+    "header": "0.0.1",
+    "montserrat-font": "0.0.1"
   }
 }

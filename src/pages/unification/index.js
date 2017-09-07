@@ -16,8 +16,8 @@ export default class UnificationPage extends Page {
 
     render() {
         const {name, version} = PKG;
-        const {common, [name]: page} = this.props;
-        const props = {common, [name]: page, name, version};
+        const {common, [name]: page, scripts} = this.props;
+        const props = {common, [name]: page, name, version, scripts};
 
         return (
             <html>
