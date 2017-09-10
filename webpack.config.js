@@ -131,6 +131,15 @@ const BASE_CONFIG = {
                 }]
             },
             {
+                test: /\.(js|jsx)$/,
+                include: SRC,
+                exclude: [NODE_MODULES],
+                loader: 'babel-loader',
+                options: {
+                    cacheDirectory: CACHE_DIR_PATH
+                }
+            },
+            {
                 test: /[^-]assets\/js\/.*\.js$/,
                 include: SRC,
                 exclude: [NODE_MODULES],
@@ -142,15 +151,6 @@ const BASE_CONFIG = {
                     ],
                     remove: true
                 })
-            },
-            {
-                test: /\.(js|jsx)$/,
-                include: SRC,
-                exclude: [NODE_MODULES],
-                loader: 'babel-loader',
-                options: {
-                    cacheDirectory: CACHE_DIR_PATH
-                }
             },
             {
                 test: /\.(graphql|gql)$/,

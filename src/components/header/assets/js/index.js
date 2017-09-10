@@ -1,3 +1,3 @@
-'use strict';
-
-console.log('header');
+(function(document, window) {
+    console.log('header');
+})(document, window);

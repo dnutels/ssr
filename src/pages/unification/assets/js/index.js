@@ -1,3 +1,3 @@
-'use strict';
-
-console.log('unification');
+(function(document, window) {
+    console.log('unification');
+})(document, window);
