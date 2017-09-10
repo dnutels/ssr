@@ -43,7 +43,6 @@ dist/
 .yo-rc.json
 yarn.lock
 adist/
-.env
 package-lock.json
 .npmrc
 .vscode
