@@ -34,11 +34,14 @@ import {
     Preload
 } from '../../common/elements/page/';
 
+const SCRIPT_CONTENT = /<script[^>]*>([\s\S]*?)<\/script>/gi;
+
 export default function Head(props) {
     const {common, name, [name]: page} = props;
-    const {assetsCdn: cdn = {}, niEnv: env = ENV, nreum} = common;
+    const {assetsCdn: cdn = {}, niEnv: env = ENV, nreum = ''} = common;
 
     const showNewRelic = env === 'production';
+    const newRelic = SCRIPT_CONTENT.exec(nreum)[1];
 
     const seo = pick(common, COMMON_SEO_PROPS);
     const og = pick(common, COMMON_OG_PROPS);
@@ -63,7 +66,7 @@ export default function Head(props) {
             <Script>{fontLoader}</Script>
             <ComponentLoader name="montserrat-font" />
             <Style>{css}</Style>
-            {/* <Script hidden={!showNewRelic}>{nreum}</Script> */}
+            <Script hidden={!showNewRelic}>{newRelic}</Script>
         </head>
     );
 }
