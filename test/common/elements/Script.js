@@ -9,9 +9,9 @@ chai.use(chaiEnzyme());
 
 const {expect} = chai;
 
-import Script from '../../src/common/elements/page/Script';
+import Script from '../../../src/common/elements/page/Script';
 
-describe('<Script /> component', function() {
+describe('<Script> component', function() {
     it('should allow empty content', function() {
         const script = shallow(<Script></Script>);
 
@@ -24,5 +24,21 @@ describe('<Script /> component', function() {
 
         expect(script).to.be.present();
         expect(script).to.have.html('<script>const a = 100;</script>');
+    });
+
+    it('should support any optional attribute', function() {
+        const script = shallow(<Script a="100" b={true} />);
+
+        expect(script).to.be.present();
+        expect(script).to.have.html('<script></script>');
+        expect(script).to.have.prop('a', '100');
+        expect(script).to.have.prop('b', true);
+    });
+
+    it('should support `hidden` attribute', function() {
+        const script = shallow(<Script hidden />);
+
+        expect(script).to.be.present();
+        expect(script).to.have.html(null);
     });
 });
