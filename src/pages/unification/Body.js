@@ -32,7 +32,7 @@ export default function Body(props) {
     });
 
     return (
-        <body className="page__font-light" data-type={name} data-version={version}>
+        <body className="page__font-light" data-page-name={name} data-page-version={version}>
             <SVGDefinition>{logo}</SVGDefinition>
             <ComponentLoader name="header" title={title} />
             <Script id="eventTrackerAttributes">{reporter}</Script>
