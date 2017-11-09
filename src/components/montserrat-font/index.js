@@ -12,7 +12,7 @@ const fonts = [
     {name: 'MontserratCrit', font: bold, weight: 700, style: 'normal'}
 ];
 
-import {Font}  from '../../common/elements/page/';
+import {Font}  from '../../../lib/elements/page/';
 
 function Montserrat(props) {
     const {title} = props;

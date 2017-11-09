@@ -2,14 +2,16 @@ import React from 'react';
 
 import {describe, it} from 'mocha';
 import chai from 'chai';
-import {shallow} from 'enzyme';
+import enzyme, {shallow} from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
+enzyme.configure({ adapter: new Adapter() });
 import chaiEnzyme from 'chai-enzyme';
 
 chai.use(chaiEnzyme());
 
 const {expect} = chai;
 
-import Script from '../../../src/common/elements/page/Script';
+import Script from '../../../../lib/elements/page/Script';
 
 describe('<Script> component', function() {
     it('should allow empty content', function() {
@@ -30,7 +32,7 @@ describe('<Script> component', function() {
         const script = shallow(<Script a="100" b={true} />);
 
         expect(script).to.be.present();
-        expect(script).to.have.html('<script></script>');
+        expect(script).to.have.html('<script a="100"></script>');
         expect(script).to.have.prop('a', '100');
         expect(script).to.have.prop('b', true);
     });

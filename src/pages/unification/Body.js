@@ -8,8 +8,8 @@ import reporter from './inline-assets/js/reporter.js';
 
 import ComponentLoader from '../../common/base/component-loader/';
 
-import {Script} from '../../common/elements/page/';
-import {SVGDefinition} from '../../common/elements/svg/';
+import {Script} from '../../../lib/elements/page/';
+import {SVGDefinition} from '../../../lib/elements/svg/';
 
 export default function Body(props) {
     const {common, name, version, [name]: page, scripts} = props;

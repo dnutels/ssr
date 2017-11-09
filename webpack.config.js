@@ -35,6 +35,7 @@ const NODE_MODULES = PATH.resolve(ROOT, 'node_modules/');
 const CACHE_DIR_PATH = PATH.resolve(ROOT, '.cache/');
 
 const SRC = PATH.resolve(ROOT, 'src/');
+const LIB = PATH.resolve(ROOT, 'lib/');
 
 const DIST = PATH.resolve(ROOT, 'dist/');
 const REPORT_FILE = PATH.resolve(DIST, 'report.html');
@@ -100,19 +101,19 @@ const BASE_CONFIG = {
         rules: [
             {
                 test: /inline-assets\/fonts\/.*\.(woff|woff2)$/,
-                include: SRC,
+                include: [SRC, LIB],
                 exclude: [NODE_MODULES],
                 loader: 'url-loader'
             },
             {
                 test: /inline-assets\/style\/.*\.(scss|css)$/,
-                include: SRC,
+                include: [SRC, LIB],
                 exclude: [NODE_MODULES],
                 use: CSS_LOADERS
             },
             {
                 test: /inline-assets\/images\/.*\.svg$/,
-                include: SRC,
+                include: [SRC, LIB],
                 exclude: [NODE_MODULES],
                 loader: 'svg-inline-loader',
                 options: {
@@ -122,7 +123,7 @@ const BASE_CONFIG = {
             },
             {
                 test: /inline-assets\/js\/.*\.(js|jsx)$/,
-                include: SRC,
+                include: [SRC, LIB],
                 exclude: [NODE_MODULES],
                 use: [{
                     loader: 'raw-loader'
@@ -132,7 +133,7 @@ const BASE_CONFIG = {
             },
             {
                 test: /\.(js|jsx)$/,
-                include: SRC,
+                include: [SRC, LIB],
                 exclude: [NODE_MODULES],
                 loader: 'babel-loader',
                 options: {
@@ -141,7 +142,7 @@ const BASE_CONFIG = {
             },
             {
                 test: /[^-]assets\/js\/.*\.js$/,
-                include: SRC,
+                include: [SRC, LIB],
                 exclude: [NODE_MODULES],
                 use: extractJS.extract({
                     use: [
@@ -154,7 +155,7 @@ const BASE_CONFIG = {
             },
             {
                 test: /\.(graphql|gql)$/,
-                include: SRC,
+                include: [SRC, LIB],
                 exclude: [NODE_MODULES],
                 loader: 'graphql-tag/loader'
             }

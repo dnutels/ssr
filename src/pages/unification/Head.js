@@ -32,7 +32,7 @@ import {
     Script,
     Style,
     Preload
-} from '../../common/elements/page/';
+} from '../../../lib/elements/page/';
 
 const SCRIPT_CONTENT = /<script[^>]*>([\s\S]*?)<\/script>/gi;
 
